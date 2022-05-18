@@ -8,6 +8,7 @@ const Container = styled.div`
 `;
 const HeroTitle = styled.div`
   margin-top: 148px;
+  z-index: 2;
 `;
 
 const HeroHeader = styled.h1`
@@ -36,6 +37,7 @@ const Wave = styled.img`
   position: absolute;
   top: 414px;
   width: 100%;
+  z-index: 0;
 `;
 
 const Hero = () => {

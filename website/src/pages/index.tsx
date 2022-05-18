@@ -1,8 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import GridSection from "../components/GridSection";
+import Grid from "../components/GridSection";
+import HealthCareThree from "../components/HealthCareThree";
 import Hero from "../components/Hero";
 import Socials from "../components/Socials";
 import Why from "../components/Why";
+import Footer from "../global/Footer";
 import Navbar from "../global/Nav/Navbar";
 
 const Home: NextPage = () => {
@@ -13,12 +17,15 @@ const Home: NextPage = () => {
         <meta name="description" content="MedDAO Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body>
+      <main>
         <Navbar />
         <Hero />
         <Why />
+        {/* /* likely delete <GridSection />  */}
+        <HealthCareThree />
         <Socials />
-      </body>
+        <Footer />
+      </main>
     </div>
   );
 };
