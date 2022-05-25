@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-type Props = {};
-
 const WhatSection = styled.section`
   width: 100%;
   min-height: 400px;

@@ -4,14 +4,17 @@ import styled from "styled-components";
 type Props = {};
 
 const Nav = styled.nav`
-  min-width: 80vw;
+  min-width: 100%;
   height: 50px;
-  margin-top: 50px;
+  padding-top: 50px;
   background-color: #f5f5f5;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2em;
+  position: fixed;
+  top: 0;
+  z-index: 3;
 `;
 
 const Logo = styled.img`
@@ -51,7 +54,7 @@ const Navbar = (props: Props) => {
     <Nav>
       <Logo src="./MedDAO_Logo_WName.png" />
       <Links>
-        <Link>Benifits</Link>
+        <Link>Benefits</Link>
         <Link>Concepts</Link>
         <Link>Roadmaps</Link>
       </Links>
