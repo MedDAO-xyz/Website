@@ -28,10 +28,10 @@ const Container = styled.div`
 const HealthCareThree = () => {
   return (
     <GradientContainer>
-      <Header>Web 3 > Healthcare 3.0</Header>
+      <Header> Healthcare 3.0</Header>
       <Container />
     </GradientContainer>
-  )
+  );
 };
 
 export default HealthCareThree;
