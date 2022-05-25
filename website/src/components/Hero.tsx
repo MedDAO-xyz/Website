@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import Image from "next/image";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const Container = styled.div`
   display: flex;
@@ -7,7 +9,7 @@ const Container = styled.div`
   align-items: center;
 `;
 const HeroTitle = styled.div`
-  margin-top: 148px;
+  margin-top: 80px;
   z-index: 2;
 `;
 
@@ -35,7 +37,7 @@ const Logo = styled.img`
 
 const Wave = styled.img`
   position: absolute;
-  top: 414px;
+  top: 149px;
   width: 100%;
   z-index: 0;
 `;
@@ -44,14 +46,18 @@ const Hero = () => {
   return (
     <Container>
       <HeroTitle>
-        <HeroHeader>Medical</HeroHeader>
-        <HeroHeader>Future</HeroHeader>
-        <HeroHeader>Now</HeroHeader>
+        <Fade delay={100} triggerOnce>
+          <HeroHeader>Medical</HeroHeader>
+        </Fade>
+        <Slide direction="up" triggerOnce>
+          <HeroHeader>Future</HeroHeader>
+          <HeroHeader>Now</HeroHeader>
+        </Slide>
       </HeroTitle>
       <LogoContainer>
         <Logo src="./MedDAO_Icon_Red.png" />
       </LogoContainer>
-      <Wave src="./Wave.png" />
+      <Wave src="./mesh.svg" />
     </Container>
   );
 };

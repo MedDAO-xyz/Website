@@ -1,58 +1,30 @@
 import React from "react";
+import { Fade, Slide } from "react-awesome-reveal";
 import styled from "styled-components";
 
-const WhyTitleBox = styled.div`
-  margin-top: 153px;
-  min-width: 80%;
-  border: #5d5d5d solid 1px;
-  border-bottom: none;
+const Section = styled.section`
+  width: 100%;
+  min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
-const WhyTitle = styled.h2`
-  font-family: "Futura";
-  font-size: 55px;
-  font-weight: 400;
-`;
-
-const RedWhy = styled.div`
-  min-width: 80%;
-  height: 100px;
-  margin-top: 0px;
-  border-radius: 0px 0px 10px 10px;
-  background-color: #ff003f;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em;
-`;
-
-const RedWhyTitle = styled.h3`
-  font-size: 40px;
-  font-weight: 700;
-  align-items: center;
-  color: white;
-`;
-
-const Arrow = styled.img`
-  width: 120px;
-  height: 25px;
-  margin-right: 1em;
+const Container = styled.div`
+  max-width: 80%;
+  min-height: 434px;
+  background-color: red;
 `;
 
 const Why = () => {
   return (
-    <>
-      <WhyTitleBox>
-        <WhyTitle>Why MedDAO?</WhyTitle>
-      </WhyTitleBox>
-      <RedWhy>
-        <RedWhyTitle>Find out why</RedWhyTitle>
-        <Arrow src="./Arrow.png" />
-      </RedWhy>
-    </>
+    <Section>
+      <Slide direction="up" duration={10}>
+        <div>
+          <Container>Why</Container>
+        </div>
+      </Slide>
+    </Section>
   );
 };
 
