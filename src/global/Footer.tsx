@@ -1,56 +1,34 @@
+import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import React from "react";
-import styled from "styled-components";
-
-const FooterContainer = styled.footer`
-  bottom: 0;
-  height: 133px;
-  width: 100%;
-  margin-top: 70px;
-  background-color: #1d1d1d;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-`;
-
-const FooterLeft = styled.div`
-  color: white;
-`;
-
-const FooterRight = styled.div`
-  display: flex;
-  flex-direction: row;
-  color: white;
-  justify-content: space-between;
-`;
-
-const Logo = styled.img`
-  max-height: 65px;
-  width: auto;
-`;
-
-const OrgInfo = styled.div`
-  margin-left: 2em;
-`;
-
-const ConsultingLink = styled.a`
-  color: red;
-  margin-left: 0.5em;
-`;
+import FullBleed from "./Layout/FullBleed";
 
 const Footer = () => {
   return (
-    <FooterContainer>
-      <FooterLeft>
-        <Logo src="./logo_wName_White.png" />
-      </FooterLeft>
-      <FooterRight>
-        <OrgInfo>MedDAO Healthcare © 2022</OrgInfo>
-        <OrgInfo>Built with ❤️ by</OrgInfo>
-        <ConsultingLink href="https://www.banklessconsulting.com/">
-          Bankless Consulting
-        </ConsultingLink>
-      </FooterRight>
-    </FooterContainer>
+    <FullBleed>
+      <Flex
+        as="footer"
+        height="5rem"
+        width="100%"
+        bg="#1d1d1d"
+        justifyContent="space-around"
+        alignItems="center"
+      >
+        <Box>
+          <Image h="65px" src="./logo_wName_White.png" />
+        </Box>
+        <Flex justifyContent="space-between">
+          <Box ml="2em">MedDAO Healthcare © 2022</Box>
+          <Box ml="2em">Built with ❤️ by</Box>
+          <Link
+            href="https://www.banklessconsulting.com/"
+            color="red"
+            ml=".5em"
+          >
+            Bankless Consulting
+          </Link>
+        </Flex>
+      </Flex>
+    </FullBleed>
   );
 };
 
