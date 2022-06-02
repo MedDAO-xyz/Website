@@ -1,65 +1,57 @@
+import { Box, Button, Flex, Image, Link } from "@chakra-ui/react";
 import React from "react";
-import styled from "styled-components";
+import FullBleed from "../Layout/FullBleed";
 
-type Props = {};
-
-const Nav = styled.nav`
-  min-width: 100%;
-  height: 50px;
-  padding-top: 50px;
-  background-color: #f5f5f5;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2em;
-  position: fixed;
-  top: 0;
-  z-index: 3;
-`;
-
-const Logo = styled.img`
-  max-height: 50px;
-  width: auto;
-`;
-
-const Links = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-  justify-content: flex-end;
-  align-items: center;
-`;
-
-const Link = styled.a`
-  margin-right: 37px;
-  font-family: "Futura";
-  font-size: 24px;
-  color: #5d5d5d;
-`;
-
-const JoinBttn = styled.button`
-  min-height: 50px;
-  width: 150px;
-  border-radius: 5px;
-  background-color: #ff003f;
-  border: none;
-  color: white;
-  font-family: "Futura";
-  font-size: 24px;
-  font-weight: 700;
-`;
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
-    <Nav>
-      <Logo src="./MedDAO_Logo_WName.png" />
-      <Links>
-        <Link>Benefits</Link>
-        <Link>Concepts</Link>
-        <Link>Roadmaps</Link>
-      </Links>
-      <JoinBttn>Join Us</JoinBttn>
-    </Nav>
+    <FullBleed>
+      <Flex
+        as="nav"
+        width="100%"
+        h="5rem"
+        justifyContent="center"
+        position="fixed"
+        top={0}
+        zIndex={10}
+        bg="#FFFFFF"
+      >
+        <Flex align="center" maxW="1500px" grow={1}>
+          <Box w="10.2rem" h="auto">
+            <Image src="./MedDAO_Logo_WName.png" alt="MedDAO logo" />
+          </Box>
+          <Flex grow={1} justifyContent="flex-end" align="center">
+            {/* 5d5d5d color for links */}
+            <Link
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize="1em"
+              mr="2em"
+            >
+              Why MedDAO
+            </Link>
+            <Link
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize="1em"
+              mr="2em"
+            >
+              Documents
+            </Link>
+            <Link
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize="1em"
+              mr="2em"
+            >
+              Roadmap
+            </Link>
+          </Flex>
+          <Button bg="red" minH="3em" color="white">
+            Join Us
+          </Button>
+        </Flex>
+      </Flex>
+    </FullBleed>
   );
 };
 
