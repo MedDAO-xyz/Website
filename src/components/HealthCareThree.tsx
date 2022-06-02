@@ -40,7 +40,7 @@ const HealthCareThree = () => {
         bg="linear-gradient(180deg, #ff003f 0%, #0b0006 211.38%)"
       >
         <Box>
-          <Heading as="h2" fontFamily="Neue Montreal">
+          <Heading as="h2" fontFamily="Neue Montreal" color="white">
             Web3 &gt;&gt;&gt; Healthcare 3.0
           </Heading>{" "}
         </Box>

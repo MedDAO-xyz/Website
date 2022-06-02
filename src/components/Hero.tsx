@@ -47,7 +47,7 @@ const Hero = () => {
     <MainColumn>
       <Flex as="section" w="100%" direction="column" alignItems="center">
         <Flex mt="2rem" minH="auto" minW="1000px" position="absolute">
-          <Image src="./mesh.svg" left={0} objectFit="cover" />
+          {/* <Image src="./mesh.svg" left={0} objectFit="cover" /> */}
         </Flex>
         <Flex
           h="100%"

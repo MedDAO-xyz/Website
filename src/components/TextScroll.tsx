@@ -1,4 +1,4 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 import FullBleed from "../global/Layout/FullBleed";
 import Logo from "./Logo";
@@ -16,6 +16,9 @@ const TextScroll = () => {
           zIndex={2}
         />
         <Flex maxW="1500px">
+          <Heading as="h2" color="white">
+            Big Test
+          </Heading>
           <Logo />
         </Flex>
       </Flex>
