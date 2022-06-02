@@ -17,7 +17,7 @@ const LogoTransition = (props: Props) => {
         alignItems="center"
         align="center"
       >
-        <Fade delay={400}>
+        <Fade delay={400} triggerOnce>
           <Logo />
         </Fade>
       </Flex>

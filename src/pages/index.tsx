@@ -1,5 +1,6 @@
 import { GridItem } from "@chakra-ui/react";
 import type { NextPage } from "next";
+import FAQ from "../components/FAQ";
 import HealthCareThree from "../components/HealthCareThree";
 import Hero from "../components/Hero";
 import LogoTransition from "../components/LogoTransition";
@@ -17,7 +18,9 @@ const Home: NextPage = () => {
       <What />
       <HealthCareThree />
       <TextScroll />
+      <FAQ />
       <GridItem gridColumn={2} h="5rem" />
+
       {/* <Footer /> */}
     </>
   );

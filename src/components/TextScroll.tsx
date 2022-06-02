@@ -14,7 +14,6 @@ const TextScroll = () => {
           h="100%"
           objectFit="cover"
           zIndex={2}
-          //   position="absolute"
         />
         <Flex maxW="1500px">
           <Logo />
