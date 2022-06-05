@@ -30,7 +30,7 @@ export const DesktopTabletView = () => (
           if (isLeadCard) {
             return <HeroCard key={ulid()} {...card} />;
           } else {
-            return <Card key={ulid()} {...card} isEvenCard={isEvenCard} />;
+            return <Card key={ulid()} {...card} isEvenCard={isEvenCard} cardIndex={index} />;
           }
         })}
     </Grid>

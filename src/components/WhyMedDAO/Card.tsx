@@ -11,15 +11,25 @@ type CardProps = {
   paras?: Array<string>;
   link?: CardLinkProps;
   isEvenCard: boolean;
+  cardIndex: number;
 };
 
-export const Card = ({ title, paras, link, isEvenCard }: CardProps) => (
+export const Card = ({
+  title,
+  paras,
+  link,
+  isEvenCard,
+  cardIndex,
+}: CardProps) => (
   <GridItem
     as="li"
     w="100%"
     h="20rem"
     p="2rem"
-    bg={!isEvenCard ? "white" : "#FFF4F7"}
+    bg={{
+      md: cardIndex === 1 || cardIndex === 4 ? "white" : "#FFF4F7",
+      lg: !isEvenCard ? "white" : "#FFF4F7",
+    }}
     colSpan={1}
     boxShadow={"inset 0px 2.74699px 5.49398px rgba(0, 0, 0, 0.25)"}
     listStyleType="none"
