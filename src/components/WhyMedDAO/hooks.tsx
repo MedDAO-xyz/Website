@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 export const useIsMobile = () => {
   const MOBILE_BREAKPOINT = 768;
   const [width, setWidth] = useState<number | null>(null);
+  const [isMobile, setIsMobile] = useState<boolean>(false);
 
   function handleWindowSizeChange() {
     setWidth(window.innerWidth);
@@ -14,9 +15,12 @@ export const useIsMobile = () => {
       window.removeEventListener("resize", handleWindowSizeChange);
     };
   }, []);
-  if (width) {
-    return width <= MOBILE_BREAKPOINT;
-  }
-  console.error(`State width not defined: [${width}]`);
-  return;
+
+  useEffect(() => {
+    if(width) {
+      setIsMobile(width <= MOBILE_BREAKPOINT)
+    }
+  }, [width])
+
+  return isMobile;
 };
