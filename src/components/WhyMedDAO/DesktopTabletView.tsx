@@ -15,7 +15,7 @@ type ContentProps = {
 };
 
 export const DesktopTabletView = () => (
-  <Box as="section" w="100%" h="fit-content" bgColor="yellow" my="8rem">
+  <Box as="section" w="100%" h="fit-content" my="8rem">
     <Grid
       as="ul"
       gridTemplateColumns={{ md: "1fr 1fr", lg: "1fr 1fr 1fr" }}

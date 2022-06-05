@@ -11,11 +11,11 @@ export const HeroCard = ({ title }: HeroCardProps) => (
       w="100%"
       h="20rem"
       bg={"#FF003F"}
-      colSpan={2}
+      colSpan={{sm: 1, md: 2}}
       listStyleType="none"
       color="black"
     >
-      <VStack h="100%" justifyContent="center" alignItems="center">
+      <VStack h="100%" w="100%" justifyContent="center" alignItems="center">
         <Text fontSize="6xl" textAlign={"center"} color="white" fontWeight={700}>
           {title}
         </Text>
