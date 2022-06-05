@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import LogoTransition from "../components/LogoTransition";
 import TextScroll from "../components/TextScroll";
 import What from "../components/What";
+import { WhyMedDAO } from "../components/WhyMedDAO";
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       <LogoTransition />
       <What />
       <HealthCareThree />
+      <WhyMedDAO/>
       <TextScroll />
       <FAQ />
       <GridItem gridColumn={2} h="5rem" />
