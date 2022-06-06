@@ -35,7 +35,7 @@ export const Card = ({
     listStyleType="none"
     color="black"
   >
-    <HStack h="fit-content" justifyContent="flex-end">
+    <HStack as="section" h="fit-content" justifyContent="flex-end">
       {link && link.href && (
         <NextLink href={link.href} passHref={true}>
           <Link as="a" isExternal={true}>
