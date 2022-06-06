@@ -15,7 +15,7 @@ const Navbar = () => {
         zIndex={10}
         bg="#FFFFFF"
       >
-        <Flex align="center" maxW="1500px" grow={1}>
+        <Flex align="center" w="100%" maxW="1500px" grow={1}>
           <Box w="10.2rem" h="auto">
             <Image src="./MedDAO_Logo_WName.png" alt="MedDAO logo" />
           </Box>

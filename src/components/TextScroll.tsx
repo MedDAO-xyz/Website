@@ -6,7 +6,13 @@ import Logo from "./Logo";
 const TextScroll = () => {
   return (
     <FullBleed>
-      <Flex w="100%" bg="black" justifyContent="center" alignItems="center">
+      <Flex
+        w="100%"
+        bg="black"
+        justifyContent="center"
+        alignItems="center"
+        pos="relative"
+      >
         <Image
           src="./AngleBackground.png"
           maxH="80vh"
@@ -15,7 +21,7 @@ const TextScroll = () => {
           objectFit="cover"
           zIndex={2}
         />
-        <Flex maxW="1500px">
+        <Flex maxW="1500px" pos="absolute">
           <Heading as="h2" color="white">
             Big Test
           </Heading>
