@@ -1,23 +1,34 @@
-import { Box, Flex, Image, Heading } from "@chakra-ui/react";
-import Logo from "../Logo";
+import { Flex, Grid, GridItem, Heading, VStack } from "@chakra-ui/react";
+import { ulid } from "ulid";
+import { BgImage } from "./BgImage";
 
 export const MobileView = () => (
-  <Box bg="blue" h='80vh'>
-    {/* <Flex w="100%" bg="black" justifyContent="center" alignItems="center">
-      <Image
-        src="./AngleBackground.png"
-        maxH="80vh"
-        minW="100%"
-        h="100%"
-        objectFit="cover"
-        zIndex={2}
-      />
-      <Flex maxW="1500px">
-        <Heading as="h2" color="white">
-          Big Test
+  <Grid
+    h="80vh"
+    w="100vw"
+    alignItems="center"
+    justifyContent="center"
+    bg="black"
+    gridTemplateColumns="1fr"
+    gridTemplateRows="1fr"
+    templateAreas={`"main"`}
+    overflow="hidden"
+  >
+    <GridItem area={"main"} w="100%">
+      <BgImage />
+    </GridItem>
+    <GridItem area={"main"} w="100%" zIndex={1}>
+      <Flex w="100%" px="3rem">
+        <Heading
+          key={ulid()}
+          as="h2"
+          size="3xl"
+          color="white"
+          textAlign="center"
+        >
+          A decentralized medical knowledge network at your fingertips.
         </Heading>
-        <Logo />
       </Flex>
-    </Flex> */}
-  </Box>
+    </GridItem>
+  </Grid>
 );
