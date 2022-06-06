@@ -34,8 +34,8 @@ const StyledSlider = styled(Slider)`
       border-bottom: 1px solid #231f1f;
       box-shadow: inset 0 0 0 0 #ff003f;
     }
-    & > li:first-child,
-    & > li:last-child {
+    & > li:first-of-type,
+    & > li:last-of-type {
       margin-left: 0px;
       margin-right: 0px;
       flex: 0 1 25%;
@@ -43,7 +43,8 @@ const StyledSlider = styled(Slider)`
     }
     & > .slick-active {
       box-shadow: inset 100px 0 0 0 #ff003f;
-      transition: box-shadow ease 5s;
+      transition: all ease 5s;
+      
     }
   }
 `;
@@ -73,6 +74,7 @@ export const MobileView = () => {
       gridTemplateRows={"20rem 20rem"}
       h="100%"
       w="100vw"
+      py="3rem"
     >
       <GridItem w="100vw">
         <HeroCard {...heroCard} />
@@ -87,7 +89,7 @@ export const MobileView = () => {
                   key={ulid()}
                   {...card}
                   isEvenCard={isEvenCard}
-                  cardIndex={index}
+                  cardIndex={index+1}
                 />
               );
             })}

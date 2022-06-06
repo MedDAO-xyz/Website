@@ -27,6 +27,7 @@ export const Card = ({
     h="20rem"
     p="2rem"
     bg={{
+      base: !isEvenCard ? "white" : "#FFF4F7",
       md: cardIndex === 1 || cardIndex === 4 ? "white" : "#FFF4F7",
       lg: !isEvenCard ? "white" : "#FFF4F7",
     }}
