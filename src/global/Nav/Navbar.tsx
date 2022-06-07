@@ -20,8 +20,8 @@ const Navbar = () => {
           align="center"
           justifyContent="space-between"
           w="100%"
-          px='1rem'
-          maxW={{ base: '100%', lg: "1440px" }}
+          px="1rem"
+          maxW={{ base: "100%", lg: "1440px" }}
         >
           <Box w="10.2rem" h="auto">
             <Image src="./MedDAO_Logo_WName.png" alt="MedDAO logo" />
@@ -30,7 +30,8 @@ const Navbar = () => {
             <Link
               color="#5d5d5d"
               fontFamily="Neue Montreal"
-              fontSize="1em"
+              fontSize="1rem"
+              fontWeight={500}
               mr="2em"
             >
               Why MedDAO
@@ -38,7 +39,8 @@ const Navbar = () => {
             <Link
               color="#5d5d5d"
               fontFamily="Neue Montreal"
-              fontSize="1em"
+              fontSize="1rem"
+              fontWeight={500}
               mr="2em"
             >
               Documents
@@ -46,12 +48,19 @@ const Navbar = () => {
             <Link
               color="#5d5d5d"
               fontFamily="Neue Montreal"
-              fontSize="1em"
+              fontSize="1rem"
+              fontWeight={500}
               mr="2em"
             >
               Roadmap
             </Link>
-            <Button bg="red" minH="3em" color="white">
+            <Button
+              bg="rgb(255, 0, 63)"
+              w="8em"
+              minH="3em"
+              color="white"
+              _hover={{ backgroundColor: "rgb(181, 0, 45)" }}
+            >
               Join Us
             </Button>
           </Flex>
