@@ -46,7 +46,7 @@ const HealthCareThree = () => {
         </Box>
         <List
           w="100%"
-          maxW="1500px"
+          maxW="1280px"
           bg="white"
           spacing={4}
           py="1em"
