@@ -21,7 +21,7 @@ export default function Layout({ children }: LayoutProps) {
         minW="100vw"
         minH="100vh"
         bg="#FFFFFF"
-        gridTemplateColumns={"1fr minmax(320px, 1500px) 1fr"}
+        gridTemplateColumns={"1fr minmax(320px, 1280px) 1fr"}
         gridAutoRows={"minmax(min-content, max-content)"}
         // sx={{
         //   "grid-template-columns": "1fr minmax(320px, 1500px) 1fr",
