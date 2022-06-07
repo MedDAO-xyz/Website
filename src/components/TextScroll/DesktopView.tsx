@@ -6,7 +6,7 @@ import { BgImage } from "./BgImage";
 export const DesktopView = () => (
   <ParallaxProvider>
     <Grid
-      h="100vh"
+      h="80vh"
       w="100vw"
       alignItems="center"
       justifyContent="center"

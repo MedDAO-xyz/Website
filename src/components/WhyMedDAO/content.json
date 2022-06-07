@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Why MedDAO?"
+  },
+  {
+    "title": "Mission",
+    "paras": [
+      "MedDAO is a token based community and protocol with the primary mission of distributing medical knowledge without boundaries, barriers of intermediaries. Our goal is to drive adoption and awareness of decentralized healthcare, or healthcare 3.0."
+    ],
+    "link": {
+      "href": "/"
+    }
+  },
+  {
+    "title": "Ownership",
+    "paras": [
+      "We believe that biggest opportunity in leveraging blockchain is to put ownership back into the hands of individuals:",
+      "For Physicians: reclaim ownership of your practice of medicine",
+      "For Patients: reclaim ownership of your..."
+    ],
+    "link": {
+      "href": "/"
+    }
+  },
+  {
+    "title": "Connectivity & Collaboration",
+    "paras": [
+      "DAOs are a model of human coordination without rigid leadership that facilitates the emergence of valuable ideas through collaboration. Together, we have the power to distribute medical knowledge by an order of magnitude."
+    ],
+    "link": {
+      "href": "/"
+    }
+  },
+  {
+    "title": "Composability",
+    "paras": [
+      "MedDAO endeavors to provide the abstractions, primitives and tooling for others to potentially extend it with many different implementations and applications"
+    ],
+    "link": {
+      "href": "/"
+    }
+  }
+]
