@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { Grid, GridItem } from "@chakra-ui/react";
 import Footer from "../Footer";
-import Navbar from "../Nav/Navbar";
+import Navbar from "../Navbar";
 
 type LayoutProps = {
   children: React.ReactNode;
