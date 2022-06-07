@@ -1,5 +1,6 @@
-import { Box, Button, Flex, Image, Link, VStack } from "@chakra-ui/react";
+import { Box, Flex, Image, Link, VStack } from "@chakra-ui/react";
 import React from "react";
+import { BaseButton } from "../../components/BaseButton";
 import FullBleed from "../Layout/FullBleed";
 
 const Navbar = () => {
@@ -54,15 +55,7 @@ const Navbar = () => {
             >
               Roadmap
             </Link>
-            <Button
-              bg="rgb(255, 0, 63)"
-              w="8em"
-              minH="3em"
-              color="white"
-              _hover={{ backgroundColor: "rgb(181, 0, 45)" }}
-            >
-              Join Us
-            </Button>
+            <BaseButton href='/' text="Join Us"/>
           </Flex>
         </Flex>
       </VStack>
