@@ -7,6 +7,7 @@ import HalfCircle from "./HalfCircle";
 import { IconCheck } from "./IconCheck";
 import { IconFuture } from "./IconFuture";
 import { IconProgress } from "./IconProgress";
+import { ulid } from "ulid";
 
 export const MobileView = () => (
   <VStack color="black" px="1.6rem" spacing="0.8rem">
@@ -23,7 +24,12 @@ export const MobileView = () => (
       <IconFuture />
     </HStack>
     {roadmap.map((obj) => (
-      <HStack w="100%" minH="3rem" bg={obj.id % 2 ? "white" : "#fff4f7"}>
+      <HStack
+        key={ulid()}
+        w="100%"
+        minH="3rem"
+        bg={obj.id % 2 ? "white" : "#fff4f7"}
+      >
         <HStack justifyContent="center" flex="1">
           <Text textAlign="left" w="100%" p="0.5rem">
             {obj.objective}
