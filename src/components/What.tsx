@@ -26,14 +26,26 @@ const What = () => {
           minH="100px"
           color="black"
         >
-          <Heading as="h3">How We Work</Heading>
-          <Text as="p" py="2rem">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            laborum a eum possimus assumenda, magni unde amet quasi,
-            consequaturin fuga commodi minus ratione illo, provident ab nostrum
-            nulla.Tempore.
+          <Heading
+            as="h3"
+            mb="1rem"
+            fontSize={{ base: "3rem", lg: "4rem" }}
+            fontWeight={500}
+          >
+            What we do
+          </Heading>
+          <Text
+            as="p"
+            mb="1.6rem"
+            fontSize="1.2em"
+            fontFamily="Neue Montreal"
+            w={{ base: "100%", lg: "76%" }}
+          >
+            MedDAO creates new incentives and systems for a global, distributed
+            medical knowledge network leveraging a highly-engaged community of
+            public health stakeholders who are co-owners of the organization.
           </Text>
-          <BaseButton href="/" text="Learn more" />
+          <BaseButton href="/" text="LEARN MORE" />
         </Flex>
         <Flex
           direction="column"

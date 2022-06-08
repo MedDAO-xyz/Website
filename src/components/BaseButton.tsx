@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@chakra-ui/react";
+import { Button, Text } from "@chakra-ui/react";
 import NextLink from "next/link";
 
 type BaseButtonProps = {
@@ -11,12 +11,18 @@ export const BaseButton = ({ text, href }: BaseButtonProps) => (
   <NextLink href={href}>
     <Button
       bg="rgb(255, 0, 63)"
-      w="8em"
+      minW="9em"
       minH="3em"
-      color="white"
       _hover={{ backgroundColor: "rgb(181, 0, 45)" }}
     >
-      {text}
+      <Text
+        color="white"
+        fontFamily="Neue Montreal"
+        fontWeight={500}
+        fontSize="1.2em"
+      >
+        {text}
+      </Text>
     </Button>
   </NextLink>
 );
