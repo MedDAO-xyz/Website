@@ -4,6 +4,7 @@ import FAQ from "../components/FAQ";
 import HealthCareThree from "../components/HealthCareThree";
 import Hero from "../components/Hero";
 import LogoTransition from "../components/LogoTransition";
+import Roadmap from "../components/Roadmap";
 import TextScroll from "../components/TextScroll";
 import What from "../components/What";
 import { WhyMedDAO } from "../components/WhyMedDAO";
@@ -18,8 +19,9 @@ const Home: NextPage = () => {
       <LogoTransition />
       <What />
       <HealthCareThree />
-      <WhyMedDAO/>
+      <WhyMedDAO />
       <TextScroll />
+      <Roadmap />
       <FAQ />
       <GridItem gridColumn={2} h="5rem" />
 

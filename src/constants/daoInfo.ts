@@ -1,4 +1,10 @@
-export const faq = [
+type qa = {
+  id: number;
+  q: string;
+  a: string;
+};
+
+export const faq: qa[] = [
   {
     id: 1,
     q: "What is MedDAO?",
@@ -37,5 +43,81 @@ export const faq = [
     id: 6,
     q: "I am not a patient, why would I join?",
     a: `MedDAO seeks to collaborate and partner with a broad range of stakeholders in the healthcare space.  We believe creating global access to a large community of healthcare providers and other medical stakeholders organized by medical specialties presents novel opportunities for researchers, charitable organizations and med-tech,  pharmaceutical, and health-insurance companies alike.  In this way MedDAO seeks to become an ImpactDAO, creating positive externalities for  the world.`,
+  },
+];
+
+type objective = {
+  id: number;
+  objective: string;
+  completed: boolean; // returns full circle icon if true, empty if false
+  inProgress: boolean; // returns half circle icon if true
+  futurePlans: boolean; // returns full circle icon if true, empty if false
+};
+
+// Object for editing the Roadmap section of the website
+export const roadmap: objective[] = [
+  {
+    id: 1,
+    objective: "Launch gated Discord ",
+    completed: true,
+    inProgress: false,
+    futurePlans: false,
+  },
+  {
+    id: 2,
+    objective: "Grow community and identify early DAO contributors",
+    completed: false,
+    inProgress: true,
+    futurePlans: false,
+  },
+  {
+    id: 3,
+    objective: "Implement self-sovereign identification and credentialing",
+    completed: false,
+    inProgress: true,
+    futurePlans: false,
+  },
+  {
+    id: 4,
+    objective: "Distribute MedDAO Token",
+    completed: false,
+    inProgress: true,
+    futurePlans: false,
+  },
+  {
+    id: 5,
+    objective: "Develop initial Knowledge Request Protocol",
+    completed: false,
+    inProgress: true,
+    futurePlans: false,
+  },
+  {
+    id: 6,
+    objective: "Launch MedDAO Protocol",
+    completed: false,
+    inProgress: true,
+    futurePlans: false,
+  },
+  {
+    id: 7,
+    objective:
+      "Collaboration with other DAOs, medical industry and charitable partners",
+    completed: false,
+    inProgress: true,
+    futurePlans: false,
+  },
+  {
+    id: 8,
+    objective: "Establish MedDAO grants program",
+    completed: false,
+    inProgress: false,
+    futurePlans: true,
+  },
+  {
+    id: 9,
+    objective: "Fully decentralize governance",
+    completed: false,
+    inProgress: false,
+    futurePlans: true,
   },
 ];
