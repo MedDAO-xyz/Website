@@ -41,7 +41,7 @@ const FAQ = () => {
           FAQ
         </Heading>
         <Accordion
-          maxW="1500px"
+          maxW="1280px"
           minW="320px"
           w="100%"
           allowMultiple
