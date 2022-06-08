@@ -6,6 +6,7 @@ import React from "react";
 import MainColumn from "../../global/Layout/MainColumn";
 import { useIsMobile } from "../_hooks";
 import { DesktopView } from "./DesktopView";
+import { MobileView } from "./MobileView";
 
 
 const Roadmap = () => {
@@ -13,10 +14,11 @@ const Roadmap = () => {
   return (
     <MainColumn>
       <Flex py="2em" direction="column">
-        <Heading as="h3" color="black" id="Roadmap">
+        <Heading as="h3" color="black" id="Roadmap" px={{base: '2rem', md:"none"}}>
           Roadmap
         </Heading>
         {!isMobile && <DesktopView/>}
+        {isMobile && <MobileView/>}
       </Flex>
     </MainColumn>
   );
