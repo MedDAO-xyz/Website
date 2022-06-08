@@ -38,7 +38,7 @@ const Hero = () => {
                     color="black"
                     fontWeight={700}
                     m={0}
-                    my='2rem'
+                    my='1.5rem'
                   >
                     A New
                   </Heading>
@@ -51,7 +51,7 @@ const Hero = () => {
                     color="black"
                     fontWeight={700}
                     m={0}
-                    my='2rem'
+                    my='1.5rem'
                   >
                     Value Layer
                   </Heading>
@@ -62,7 +62,7 @@ const Hero = () => {
                     color="black"
                     fontWeight={700}
                     m={0}
-                    my='2rem'
+                    my='1.5rem'
                   >
                     In Healthcare
                   </Heading>

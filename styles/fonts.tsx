@@ -21,6 +21,14 @@ const Fonts = () => (
       }
       /* latin */
       @font-face {
+        font-family: 'Neue Montreal';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('/fonts/neue/Book.otf') format("opentype");
+      }
+      /* latin */
+      @font-face {
         font-family: 'IBM Plex Mono';
         font-style: normal;
         font-weight: 500;
