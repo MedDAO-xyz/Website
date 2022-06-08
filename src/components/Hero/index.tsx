@@ -31,15 +31,39 @@ const Hero = () => {
             {!isMobile && (
               <>
                 <Slide direction="down" triggerOnce>
-                  <Heading as="h1" fontSize="3em" mt="1em" color="black">
+                  <Heading
+                    as="h1"
+                    fontSize="5em"
+                    mt="1em"
+                    color="black"
+                    fontWeight={700}
+                    m={0}
+                    my='2rem'
+                  >
                     A New
                   </Heading>
                 </Slide>
                 <Fade delay={200} triggerOnce>
-                  <Heading as="h1" fontSize="3em" mt=".75em" color="black">
+                  <Heading
+                    as="h1"
+                    fontSize="5em"
+                    mt=".75em"
+                    color="black"
+                    fontWeight={700}
+                    m={0}
+                    my='2rem'
+                  >
                     Value Layer
                   </Heading>
-                  <Heading as="h1" fontSize="3em" mt=".75em" color="black">
+                  <Heading
+                    as="h1"
+                    fontSize="5em"
+                    mt=".75em"
+                    color="black"
+                    fontWeight={700}
+                    m={0}
+                    my='2rem'
+                  >
                     In Healthcare
                   </Heading>
                 </Fade>

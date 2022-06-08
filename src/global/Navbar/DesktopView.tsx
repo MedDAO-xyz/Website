@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Link, VStack } from "@chakra-ui/react";
+import { Box, Text, Flex, Image, Link, VStack, HStack } from "@chakra-ui/react";
 import React from "react";
 import { BaseButton } from "../../components/BaseButton";
 
@@ -25,36 +25,39 @@ export const DesktopView = () => {
         <Box w="10.2rem" h="auto">
           <Image src="./MedDAO_Logo_WName.png" alt="MedDAO logo" />
         </Box>
-        <Flex align="center">
-          <Link
-            color="#5d5d5d"
-            fontFamily="Neue Montreal"
-            fontSize="1rem"
-            fontWeight={500}
-            mr="2em"
-          >
-            Why MedDAO
+        <HStack spacing='2em' align="center">
+          <Link>
+            <Text
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize="1.2em"
+              fontWeight={500}
+            >
+              Why MedDAO
+            </Text>
           </Link>
-          <Link
-            color="#5d5d5d"
-            fontFamily="Neue Montreal"
-            fontSize="1rem"
-            fontWeight={500}
-            mr="2em"
-          >
-            Documents
+          <Link>
+            <Text
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize="1.2em"
+              fontWeight={500}
+            >
+              Documents
+            </Text>
           </Link>
-          <Link
-            color="#5d5d5d"
-            fontFamily="Neue Montreal"
-            fontSize="1rem"
-            fontWeight={500}
-            mr="2em"
-          >
-            Roadmap
+          <Link>
+            <Text
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize="1.2em"
+              fontWeight={500}
+            >
+              Roadmap
+            </Text>
           </Link>
-          <BaseButton href="/" text="Join Us" />
-        </Flex>
+          <BaseButton href="/" text="JOIN US" />
+        </HStack>
       </Flex>
     </VStack>
   );
