@@ -25,8 +25,8 @@ export const DesktopView = () => {
         <Box w="10.2rem" h="auto">
           <Image src="./MedDAO_Logo_WName.png" alt="MedDAO logo" />
         </Box>
-        <HStack spacing='2em' align="center">
-          <Link>
+        <HStack spacing="2em" align="center">
+          <Link href="/#why">
             <Text
               color="#5d5d5d"
               fontFamily="Neue Montreal"
@@ -36,7 +36,7 @@ export const DesktopView = () => {
               Why MedDAO
             </Text>
           </Link>
-          <Link>
+          <Link href="https://docs.meddao.xyz/" target="_blank">
             <Text
               color="#5d5d5d"
               fontFamily="Neue Montreal"
@@ -46,7 +46,7 @@ export const DesktopView = () => {
               Documents
             </Text>
           </Link>
-          <Link>
+          <Link href="/#roadmap">
             <Text
               color="#5d5d5d"
               fontFamily="Neue Montreal"
@@ -56,7 +56,7 @@ export const DesktopView = () => {
               Roadmap
             </Text>
           </Link>
-          <BaseButton href="/" text="JOIN US" />
+          <BaseButton href="https://discord.gg/ZHE7BrQD" text="JOIN US" />
         </HStack>
       </Flex>
     </VStack>

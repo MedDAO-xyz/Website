@@ -3,13 +3,16 @@ import React from "react";
 
 type Props = {
   children: React.ReactNode;
+  id?: string;
 };
 
-const MainColumn = ({ children }: Props) => {
+const MainColumn = ({ children, id }: Props) => {
   return (
     <>
       <GridItem gridColumn={1} />
-      <GridItem gridColumn={2}>{children}</GridItem>
+      <GridItem gridColumn={2} id={id}>
+        {children}
+      </GridItem>
       <GridItem gridColumn={3} />
     </>
   );

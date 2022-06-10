@@ -6,7 +6,7 @@ import { MobileView } from "./MobileView";
 export const WhyMedDAO = () => {
   const isMobile = useIsMobile();
   return (
-    <MainColumn>
+    <MainColumn id="why">
       {isMobile && <MobileView />}
       {!isMobile && <DesktopTabletView />}
     </MainColumn>
