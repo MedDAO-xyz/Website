@@ -51,6 +51,7 @@ const SubBlock = () => {
             bg="#FF003F"
             color="white"
             fontWeight={500}
+            _hover={{ backgroundColor: "rgb(181, 0, 45)" }}
           >
             SUBSCRIBE
             <ArrowIcon />

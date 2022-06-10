@@ -4,9 +4,7 @@ import { Fade } from "react-awesome-reveal";
 import MainColumn from "../global/Layout/MainColumn";
 import Logo from "./Logo";
 
-type Props = {};
-
-const LogoTransition = (props: Props) => {
+const LogoTransition = () => {
   return (
     <MainColumn>
       <Flex

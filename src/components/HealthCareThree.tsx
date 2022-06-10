@@ -25,7 +25,6 @@ const HealthCareThree = () => {
         alignItems="center"
         bg="linear-gradient(180deg, #ff003f 0%, #0b0006 211.38%)"
       >
-        {/* &gt;&gt;&gt; */}
         <Box>
           <Heading as="h2" fontFamily="Neue Montreal" color="white">
             Web3
@@ -74,10 +73,6 @@ const HealthCareThree = () => {
         </List>
       </Flex>
     </FullBleed>
-    // <GradientContainer>
-    //   <Header> Healthcare 3.0</Header>
-    //   <Container />
-    // </GradientContainer>
   );
 };
 

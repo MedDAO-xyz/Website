@@ -22,7 +22,7 @@ export const MobileView = () => (
         <Heading
           key={ulid()}
           as="h2"
-          size="3xl"
+          size="xl"
           color="white"
           textAlign="center"
         >

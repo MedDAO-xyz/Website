@@ -40,7 +40,7 @@ export const DesktopView = () => (
             <Heading
               key={ulid()}
               as="h2"
-              size="3xl"
+              size={{ base: "xl", md: "xl", lg: "xl", xl: "3xl" }}
               color="white"
               textAlign="center"
             >
@@ -51,7 +51,7 @@ export const DesktopView = () => (
             <Heading
               key={ulid()}
               as="h2"
-              size="3xl"
+              size={{ base: "xl", md: "xl", lg: "xl", xl: "3xl" }}
               color="white"
               textAlign="center"
             >
