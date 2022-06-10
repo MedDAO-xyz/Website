@@ -45,7 +45,7 @@ const SubBlock = () => {
           h={{ base: "54px", md: "70px" }}
           bg={{ base: "white", md: "black" }}
         >
-          <Button mt={{ base: ".25em", md: "0px" }} bg="#FF003F">
+          <Button mt={{ base: ".25em", md: "0px" }} bg="#FF003F" color="white">
             SUBSCRIBE
           </Button>
         </Box>
