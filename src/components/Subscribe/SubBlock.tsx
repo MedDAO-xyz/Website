@@ -8,6 +8,7 @@ import {
   Input,
 } from "@chakra-ui/react";
 import React from "react";
+import { ArrowIcon } from "../../global/Icon/Arrow";
 
 const SubBlock = () => {
   return (
@@ -31,7 +32,7 @@ const SubBlock = () => {
         <Input
           bg="black"
           h="70px"
-          w={{ base: "60%", md: "100%" }}
+          w={{ base: "90%", md: "100%" }}
           placeholder="Your Email Address"
           _placeholder={{ opacity: 1, color: "grey" }}
           color="white"
@@ -45,8 +46,14 @@ const SubBlock = () => {
           h={{ base: "54px", md: "70px" }}
           bg={{ base: "white", md: "black" }}
         >
-          <Button mt={{ base: ".25em", md: "0px" }} bg="#FF003F" color="white">
+          <Button
+            mt={{ base: ".25em", md: "0px" }}
+            bg="#FF003F"
+            color="white"
+            fontWeight={500}
+          >
             SUBSCRIBE
+            <ArrowIcon />
           </Button>
         </Box>
       </Flex>

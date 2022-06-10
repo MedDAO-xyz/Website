@@ -8,9 +8,9 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React from "react";
+import { RedBullet } from "../global/Icon/RedBullet";
+import { TrippleChevron } from "../global/Icon/TrippleChevron";
 import FullBleed from "../global/Layout/FullBleed";
-import { RedBullet } from "./RedBullet";
-import { TrippleChevron } from "./TrippleChevron";
 
 const HealthCareThree = () => {
   return (

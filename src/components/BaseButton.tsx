@@ -5,9 +5,10 @@ import NextLink from "next/link";
 type BaseButtonProps = {
   text: string;
   href: string;
+  children?: React.ReactNode;
 };
 
-export const BaseButton = ({ text, href }: BaseButtonProps) => (
+export const BaseButton = ({ text, href, children }: BaseButtonProps) => (
   <NextLink href={href}>
     <Button
       bg="rgb(255, 0, 63)"
@@ -23,6 +24,7 @@ export const BaseButton = ({ text, href }: BaseButtonProps) => (
       >
         {text}
       </Text>
+      {children}
     </Button>
   </NextLink>
 );

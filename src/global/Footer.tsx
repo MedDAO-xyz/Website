@@ -7,22 +7,29 @@ const Footer = () => {
     <FullBleed>
       <Flex
         as="footer"
-        height="5rem"
+        minH="100px"
         width="100%"
+        maxW="1900px"
+        px="1em"
         bg="#1d1d1d"
-        justifyContent="space-around"
+        direction={{ base: "column", md: "row" }}
+        justifyContent={{ base: "center", md: "space-between" }}
         alignItems="center"
       >
-        <Box>
+        <Box py="1em">
           <Image h="65px" src="./logo_wName_White.png" />
         </Box>
-        <Flex justifyContent="space-between">
-          <Box ml="2em">MedDAO Healthcare © 2022</Box>
-          <Box ml="2em">Built with ❤️ by</Box>
+        <Flex
+          direction={{ base: "column", md: "row" }}
+          justifyContent="space-between"
+          py="1em"
+        >
+          <Box ml={{ base: "none", md: "2em" }}>MedDAO Healthcare © 2022</Box>
+          <Box ml={{ base: "none", md: "2em" }}>Built with ❤️ by</Box>
           <Link
             href="https://www.banklessconsulting.com/"
             color="red"
-            ml=".5em"
+            ml={{ base: "none", md: ".5em" }}
           >
             Bankless Consulting
           </Link>

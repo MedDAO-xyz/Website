@@ -1,38 +1,44 @@
-type qa = {
+export type qa = {
   id: number;
   q: string;
   a: string;
 };
 
+// To preserve formatting you will need to enclose text in `` and not normal ""
+// To prevent the indented lines being included new lines will need to start all the way to the left.
 export const faq: qa[] = [
   {
     id: 1,
     q: "What is MedDAO?",
-    a: "MedDAO provides a platform on which healthcare providers,  patients and other industry stakeholders can collaborate to distribute medical knowledge on a global scale. We do that by leveraging a highly-engaged community made up of public health stakeholders who are co-owners of our organization. We do it because we believe that access to medical knowledge and expertise should not be artificially constrained by geography.",
+    a: `MedDAO provides a platform on which healthcare providers,  patients and other industry stakeholders can collaborate to distribute medical knowledge on a global scale.
+    
+We do that by leveraging a highly-engaged community made up of public health stakeholders who are co-owners of our organization. 
+
+We do it because we believe that access to medical knowledge and expertise should not be artificially constrained by geography.`,
   },
   {
     id: 2,
     q: "Who are some of MedDAO’s stakeholders?",
-    a: `·Healthcare professionals
-    ·Patients
-    ·Medical industry
-    ·Academic institutions/researchers
-    ·Caused-based organizations
-    ·Medicolegal experts
-    ·Web3 natives
-    ·Regulators`,
+    a: `· Healthcare professionals
+· Patients
+· Medical industry
+· Academic institutions/researchers
+· Caused-based organizations
+· Medicolegal experts
+· Web3 natives
+· Regulators`,
   },
   {
     id: 3,
-    q: "What isn/’t MedDAO?",
-    a: `·It/’s not telehealth
-    ·It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies
-    ·It’s not shilling NFTs`,
+    q: "What isn’t MedDAO?",
+    a: `· It’s not telehealth
+· It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies
+· It’s not shilling NFTs`,
   },
   {
     id: 4,
     q: "How can you verify provider credentials?",
-    a: "All members of the community must go through a KYC/Proof of Humanity check.  Additionally, subDAOs may have additional credentialing requirements.  Providers will be credentialed using a 3rd party provider, once the provider has been approved a non-transferrable NFT will be minted to their wallet enabling their entry into the proper subDAO. Please click here for more information [links to docs section on credentialing]",
+    a: `All members of the community must go through a KYC/Proof of Humanity check.  Additionally, subDAOs may have additional credentialing requirements.  Providers will be credentialed using a 3rd party provider, once the provider has been approved a non-transferrable NFT will be minted to their wallet enabling their entry into the proper subDAO. Please click for more information `,
   },
   {
     id: 5,
@@ -43,6 +49,22 @@ export const faq: qa[] = [
     id: 6,
     q: "I am not a patient, why would I join?",
     a: `MedDAO seeks to collaborate and partner with a broad range of stakeholders in the healthcare space.  We believe creating global access to a large community of healthcare providers and other medical stakeholders organized by medical specialties presents novel opportunities for researchers, charitable organizations and med-tech,  pharmaceutical, and health-insurance companies alike.  In this way MedDAO seeks to become an ImpactDAO, creating positive externalities for  the world.`,
+  },
+  {
+    id: 7,
+    q: "What is a knowledge request?",
+    a: `Knowledge Requests (KRs) are one of the proposed use cases of MedDAO and its members. A KR begins with a knowledge requestor asking a question to a subDAO (or multiple subDAOs), the subDAO members  then go through a request fufillment process and, after internal quality check processes, the return the completed KR. At genesis, MedDAO will support Industry Knowledge Requests. In the future, we plan to expand Knowledge Request use cases to include patients, legal, government, research and other areas submitted by subDAOs.`,
+  },
+  {
+    id: 8,
+    q: "How do I get involved?",
+    a: `So we've piqued your interest and now you want to get involved. Maybe you're a healthcare provider and want to truly be part of a vision to utilize blockchain technology and shared ownership to better share and deliver healthcare knowledge. Maybe you are a patient or advocate who wants to take on a more of an active role in how medical expertise is shared. Or perhaps, you are just interested in learning more about or contributing to the conversation on Web3, blockchain and DAOs as they pertain to healthcare.
+    
+If you're interested in learning more you can find the core MedDAO documents on our Gitbook linked here. We've also linked to several of our favorite articles about DAOs, Web3 and healthcare.
+
+We encourage you to sign up for our email list and follow our socials to receive updates regarding progress of MedDAO and, community events.
+
+If you've made it this far we would recommend you sign up for our Discord server. This is the primary platform for engagement with MedDAO. Here you will become part of the conversation and a member of the team actually making this vision a reality. Detailed instructions and walkthrough are provided on the Discord server. Please reach out to our Community Management Team with technical difficulties.`,
   },
 ];
 

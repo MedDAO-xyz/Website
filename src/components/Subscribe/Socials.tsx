@@ -8,24 +8,30 @@ const Socials = () => {
   return (
     <Flex
       w="100%"
-      h="4em"
-      p="1em"
-      direction="row"
-      border="1px solid #5D5D5D"
+      py="1em"
+      px={{ base: "2em", lg: "none" }}
+      direction={{ base: "column", md: "row" }}
+      border={{ base: "none", md: "1px solid #5D5D5D" }}
       borderRadius=".5em"
       alignItems="center"
-      justifyContent="space-between"
-      flexWrap="wrap"
+      justifyContent={{ base: "flex-start", md: "space-between" }}
     >
-      <Box color="#5D5D5D" minW="325px">
+      <Box
+        color="#5D5D5D"
+        minW="320px"
+        w="100%"
+        textAlign={{ base: "center", md: "start" }}
+        borderBottom={{ base: "1px solid #5D5D5D", md: "none" }}
+      >
         Join the Movement
       </Box>
       <HStack
         h="100%"
+        mt={{ base: ".25em", md: "none" }}
         alignItems="center"
         divider={<StackDivider borderColor="#5D5D5D" />}
       >
-        <Link color="#FF003F" href="#" target="_blank">
+        <Link color="#FF003F" href="#" target="_blank" flexWrap="nowrap">
           <MirrorIcon /> Mirror
         </Link>
         <Link color="#FF003F" href="#" target="_blank">

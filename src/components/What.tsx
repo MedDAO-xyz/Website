@@ -1,6 +1,7 @@
 import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
+import { ArrowIcon } from "../global/Icon/Arrow";
 import MainColumn from "../global/Layout/MainColumn";
 import { BaseButton } from "./BaseButton";
 
@@ -13,15 +14,16 @@ const What = () => {
       <Flex
         as="section"
         w="100%"
+        px={{ base: "none", md: "1em" }}
+        direction={{ base: "column", md: "row" }}
         justifyContent="center"
         alignItems="center"
-        wrap="wrap"
         my="1em"
       >
         <Flex
           direction="column"
           alignItems="flex-start"
-          w="40%"
+          w={{ base: "80%", md: "40%" }}
           minW="320px"
           minH="100px"
           color="black"
@@ -45,28 +47,32 @@ const What = () => {
             medical knowledge network leveraging a highly-engaged community of
             public health stakeholders who are co-owners of the organization.
           </Text>
-          <BaseButton href="/" text="LEARN MORE" />
+          <BaseButton href="https://docs.meddao.xyz/" text="LEARN MORE">
+            <ArrowIcon />
+          </BaseButton>
         </Flex>
         <Flex
           direction="column"
           alignItems="center"
-          w="60%"
+          w={{ base: "90%", md: "60%" }}
           minW="320px"
           minH="100px"
         >
           <Flex
             minW="320px"
             w="100%"
-            ml="2em"
+            maxH="100%"
+            ml={{ base: "none", md: "2em" }}
+            justifyContent="center"
             alignItems="center"
             position="relative"
           >
-            <Image objectFit="contain" src="./grid.svg" />
+            <Image w="100%" maxH="100%" objectFit="fill" src="./grid.svg" />
             <Flex
-              w="70%"
+              w="100%"
               minH="80%"
               position="absolute"
-              left="2em"
+              left={{ base: 0, md: "2em" }}
               border="1px solid red"
               justifyContent="center"
               alignItems="center"
@@ -77,26 +83,6 @@ const What = () => {
         </Flex>
       </Flex>
     </MainColumn>
-    // <WhatSection>
-    //   <Container>
-    //     <Description>
-    //       <LearnHeader>What We Do</LearnHeader>
-    //       <p>
-    //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-    //         laborum a eum possimus assumenda, magni unde amet quasi, consequatur
-    //         in fuga commodi minus ratione illo, provident ab nostrum nulla.
-    //         Tempore.
-    //       </p>
-    //       <LearnBttn>Learn More</LearnBttn>
-    //     </Description>
-    //     <VidBox>
-    //       <Grid src="./grid.svg" />
-    //       <Outline>
-    //         <Vid src="#" poster={highFive} />
-    //       </Outline>
-    //     </VidBox>
-    //   </Container>
-    // </WhatSection>
   );
 };
 
