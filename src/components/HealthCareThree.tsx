@@ -1,18 +1,20 @@
-import {
-  Box,
-  Flex,
-  Heading,
-  List,
-  ListIcon,
-  ListItem,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Flex, Heading, HStack, Text, VStack } from "@chakra-ui/react";
 import React from "react";
+import { healthThree } from "../constants/daoInfo";
 import { RedBullet } from "../global/Icon/RedBullet";
 import { TrippleChevron } from "../global/Icon/TrippleChevron";
 import FullBleed from "../global/Layout/FullBleed";
 
-const HealthCareThree = () => {
+const bulletPoints = healthThree.map((obj) => (
+  <HStack alignItems="center" key={obj.id} mb="1.5em">
+    <RedBullet />
+    <Text color="black" fontSize="24px" fontFamily="Neue Montreal">
+      {obj.bulletPoint}
+    </Text>
+  </HStack>
+));
+
+const HThree = () => {
   return (
     <FullBleed>
       <Flex
@@ -32,48 +34,23 @@ const HealthCareThree = () => {
             Healthcare 3.0
           </Heading>{" "}
         </Box>
-        <List
+
+        <Flex
           w="100%"
+          direction="column"
           maxW="1280px"
           bg="white"
-          spacing={4}
           py="1em"
-          px="2em"
-          listStyleImage="./bullet.png"
+          px="1em"
+          justify="flex-start"
           borderRadius="1em"
           mt="1em"
         >
-          <ListItem color="black" fontSize="24px" fontFamily="Neue Montreal">
-            <ListIcon as={RedBullet} />
-            <Text as="span" ml="1em">
-              Aligned incentives using blockchain technology
-            </Text>
-          </ListItem>
-          <ListItem color="black" fontSize="24px" fontFamily="Neue Montreal">
-            <ListIcon as={RedBullet} />
-            <Text as="span" ml="1em">
-              Knowledge and data owned by members of the DAO rather than
-              companies
-            </Text>
-          </ListItem>
-          <ListItem color="black" fontSize="24px" fontFamily="Neue Montreal">
-            <ListIcon as={RedBullet} />
-            <Text as="span" ml="1em">
-              Increase trust in the knowledge available through multiple
-              opinions & collective wisdom
-            </Text>
-          </ListItem>
-          <ListItem color="black" fontSize="24px" fontFamily="Neue Montreal">
-            <ListIcon as={RedBullet} />
-            <Text as="span" ml="1em">
-              Collaborative participation of our community including healthcare
-              providers, patients, developers and industry partners
-            </Text>
-          </ListItem>
-        </List>
+          {bulletPoints}
+        </Flex>
       </Flex>
     </FullBleed>
   );
 };
 
-export default HealthCareThree;
+export default HThree;
