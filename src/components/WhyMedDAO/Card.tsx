@@ -37,7 +37,7 @@ export const Card = ({
     color="black"
   >
     <HStack as="section" h="fit-content" justifyContent="flex-end">
-      {link && link.href && (
+      {/* {link && link.href && (
         <NextLink href={link.href} passHref={true}>
           <Link as="a" isExternal={true}>
             <Box h="2rem" w="2rem">
@@ -58,9 +58,11 @@ export const Card = ({
             </Box>
           </Link>
         </NextLink>
-      )}
+      )} */}
     </HStack>
-    <Text fontSize="2xl" fontFamily='IBM Plex Mono' fontWeight={500}>{title}</Text>
+    <Text fontSize="2xl" fontFamily="IBM Plex Mono" fontWeight={500}>
+      {title}
+    </Text>
     {paras &&
       paras.length > 0 &&
       paras.map((para) => (

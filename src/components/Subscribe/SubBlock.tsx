@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { ArrowIcon } from "../../global/Icon/Arrow";
+import SubForm from "./SubForm";
 
 const SubBlock = () => {
   return (
@@ -23,41 +24,7 @@ const SubBlock = () => {
           STAY IN TOUCH
         </Heading>
       </Flex>
-      <Flex
-        // ml="2em"
-        justifyContent={{ base: "flex-start", md: "space-between" }}
-        direction={{ base: "column", md: "row" }}
-        minW="60%"
-      >
-        <Input
-          bg="black"
-          h="70px"
-          w={{ base: "90%", md: "100%" }}
-          placeholder="Your Email Address"
-          _placeholder={{ opacity: 1, color: "grey" }}
-          color="white"
-          alignSelf="baseline"
-          borderRadius={0}
-          border="none"
-        />
-        <Box
-          py=".5em"
-          px={{ base: "none", md: ".5em" }}
-          h={{ base: "54px", md: "70px" }}
-          bg={{ base: "white", md: "black" }}
-        >
-          <Button
-            mt={{ base: ".25em", md: "0px" }}
-            bg="#FF003F"
-            color="white"
-            fontWeight={500}
-            _hover={{ backgroundColor: "rgb(181, 0, 45)" }}
-          >
-            SUBSCRIBE
-            <ArrowIcon />
-          </Button>
-        </Box>
-      </Flex>
+      <SubForm />
     </Flex>
   );
 };
