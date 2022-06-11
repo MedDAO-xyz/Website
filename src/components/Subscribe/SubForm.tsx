@@ -13,20 +13,17 @@ function SubForm() {
     setState("Loading");
 
     try {
-      console.log(email);
       const response = await axios.post("/api/subscribe", { email });
-      console.log(response);
       setState("Success");
       setEmail("");
       alert("Thank you for subscribing");
     } catch (e: any) {
-      console.log(e?.response?.data?.error);
       setErrorMsg(e?.response?.data?.error);
       setState("Error");
+      console.warn(e?.response?.data?.error);
       alert(
-        "We're sorry there was a problem with your request.  Please double check your email address.\n  If there are still issues please reach out to us on discord."
+        "We're sorry there was a problem with your request.  Please double check your email address.  If there are still issues please reach out to us on discord."
       );
-      console.warn(errorMsg);
     }
   };
 
