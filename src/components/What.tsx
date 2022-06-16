@@ -32,7 +32,7 @@ const What = () => {
             as="h3"
             mb="1rem"
             fontFamily="IBM Plex Mono"
-            fontSize={{ base: "3rem", lg: "4rem" }}
+            fontSize={{ base: "1.8rem", lg: "3rem" }}
             fontWeight={500}
           >
             What we do

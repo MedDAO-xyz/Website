@@ -22,7 +22,7 @@ export const DesktopView = () => {
         px="1rem"
         maxW={{ base: "100%", lg: "1440px" }}
       >
-        <Box w="13rem" h="auto">
+        <Box w="13rem" h="auto" mr="1em">
           <Image src="./MedDAO_Logo_Red.svg" alt="MedDAO logo" />
         </Box>
         <HStack spacing="2em" align="center">
@@ -30,7 +30,7 @@ export const DesktopView = () => {
             <Text
               color="#5d5d5d"
               fontFamily="Neue Montreal"
-              fontSize="1.2em"
+              fontSize={{ sm: "1em", md: "1.2em" }}
               fontWeight={500}
             >
               Why MedDAO
@@ -40,7 +40,7 @@ export const DesktopView = () => {
             <Text
               color="#5d5d5d"
               fontFamily="Neue Montreal"
-              fontSize="1.2em"
+              fontSize={{ sm: "1em", md: "1.2em" }}
               fontWeight={500}
             >
               Documents
@@ -50,7 +50,7 @@ export const DesktopView = () => {
             <Text
               color="#5d5d5d"
               fontFamily="Neue Montreal"
-              fontSize="1.2em"
+              fontSize={{ sm: "1em", md: "1.2em" }}
               fontWeight={500}
               scrollMarginTop="800px"
             >

@@ -1,93 +1,81 @@
+import { Flex, Heading } from "@chakra-ui/react";
 import React from "react";
-import { Fade, Slide } from "react-awesome-reveal";
-import { Grid, GridItem, Box, Heading, VStack } from "@chakra-ui/react";
+import { Slide } from "react-awesome-reveal";
 import FullBleed from "../../global/Layout/FullBleed";
-import { BgImage } from "./BgImage";
-import { MobileBgImage } from "./MobileBgImage";
-import { useIsMobile } from "../_hooks";
 
 const Hero = () => {
-  const isMobile = useIsMobile();
   return (
     <FullBleed>
-      <Grid
-        h={{ sm: "60vh", md: "70vh" }}
-        w="100vw"
-        alignItems="center"
-        justifyContent="center"
-        bg="white"
-        pos="relative"
-        gridTemplateColumns="1fr"
-        gridTemplateRows="1fr"
-        templateAreas={`"main"`}
+      <Flex
+        as="section"
+        py="50px"
+        w="100%"
+        position="relative"
+        justify="center"
+        minH="350px"
         overflow="hidden"
       >
-        <GridItem area={"main"} w="100vw" overflow="hidden">
-          {isMobile && <MobileBgImage />}
-          {!isMobile && <BgImage />}
-        </GridItem>
-        <GridItem area={"main"} w="100vw">
-          <VStack justifyContent="center" alignItems="center" w="100vw">
-            {!isMobile && (
-              <>
-                <Slide direction="down" triggerOnce>
-                  <Heading
-                    as="h1"
-                    fontSize="5em"
-                    mt="1em"
-                    color="black"
-                    fontWeight={700}
-                    m={0}
-                    my="1.5rem"
-                  >
-                    A New
-                  </Heading>
-                </Slide>
-                <Fade delay={200} triggerOnce>
-                  <Heading
-                    as="h1"
-                    fontSize="5em"
-                    mt=".75em"
-                    color="black"
-                    fontWeight={700}
-                    m={0}
-                    my="1.5rem"
-                  >
-                    Value Layer
-                  </Heading>
-                  <Heading
-                    as="h1"
-                    fontSize="5em"
-                    mt=".75em"
-                    color="black"
-                    fontWeight={700}
-                    m={0}
-                    my="1.5rem"
-                  >
-                    In Healthcare
-                  </Heading>
-                </Fade>
-              </>
-            )}
-            {isMobile && (
-              <>
-                <Slide direction="down" triggerOnce>
-                  <Heading as="h1" fontSize="3em" color="black">
-                    A New
-                  </Heading>
-                  <Heading as="h1" fontSize="3em" color="black">
-                    Value Layer
-                  </Heading>
-                  <Heading as="h1" fontSize="3em" color="black">
-                    In Healthcare
-                  </Heading>
-                </Slide>
-              </>
-            )}
-          </VStack>
-          {/* </Flex> */}
-        </GridItem>
-      </Grid>
+        <Flex
+          h={{ base: "400px", md: "550px" }}
+          width="100%"
+          maxW="1920px"
+          backgroundImage="mesh.svg"
+          backgroundRepeat="no-repeat"
+          backgroundPosition="center"
+          backgroundSize="clamp(1400px, 100% ,1920px)"
+          overflow="hidden"
+          justify="center"
+          align="center"
+        >
+          <Flex
+            h="100%"
+            w="100%"
+            justify="center"
+            align="center"
+            direction="column"
+          >
+            <Slide direction="down" triggerOnce>
+              <Heading
+                as="h1"
+                fontFamily="Neue Montreal"
+                fontWeight={700}
+                fontSize={{ base: "3em", md: "4em", xl: "5em" }}
+                color="black"
+              >
+                A New
+              </Heading>
+              <Heading
+                as="h1"
+                fontFamily="Neue Montreal"
+                textAlign="center"
+                fontWeight={700}
+                fontSize={{ base: "3em", md: "4em", xl: "5em" }}
+                color="black"
+              >
+                Value Layer
+              </Heading>
+              <Heading
+                as="h1"
+                fontFamily="Neue Montreal"
+                fontWeight={700}
+                fontSize={{ base: "3em", md: "4em", xl: "5em" }}
+                color="black"
+              >
+                In
+              </Heading>
+              <Heading
+                as="h1"
+                fontFamily="Neue Montreal"
+                fontWeight={700}
+                fontSize={{ base: "3em", md: "4em", xl: "5em" }}
+                color="black"
+              >
+                Healthcare
+              </Heading>
+            </Slide>
+          </Flex>
+        </Flex>
+      </Flex>
     </FullBleed>
   );
 };

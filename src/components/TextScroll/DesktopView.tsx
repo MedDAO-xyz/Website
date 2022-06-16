@@ -6,7 +6,7 @@ import { BgImage } from "./BgImage";
 export const DesktopView = () => (
   <ParallaxProvider>
     <Grid
-      h="80vh"
+      h="calc(100vh - 5em)"
       w="100vw"
       alignItems="center"
       justifyContent="center"
@@ -21,8 +21,8 @@ export const DesktopView = () => (
       </GridItem>
       <GridItem area={"main"} w="100%" h="10rem" zIndex={1}></GridItem>
       <GridItem area={"main"} w="100%" zIndex={2}>
-        <VStack w="60%" px="3rem" m="0 auto">
-          <Box h="10rem" w="10rem" m="0 auto" mt="-6rem">
+        <VStack w="100%" align="start">
+          <Box h="10rem" w="10rem" m="0 auto" mt="-6rem" overflow="hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -36,21 +36,29 @@ export const DesktopView = () => (
               />
             </svg>
           </Box>
-          <Parallax translateX={["-12vw", "0vw"]} easing="easeInQuad">
+          <Parallax
+            // translateX={["-10vw", "60vw"]}
+            translateX={[15, 90]}
+            speed={-1}
+            easing="easeInQuad"
+          >
             <Heading
               key={ulid()}
               as="h2"
+              whiteSpace="nowrap"
               size={{ base: "xl", md: "xl", lg: "xl", xl: "3xl" }}
               color="white"
-              textAlign="center"
+              px={0}
+              w="auto"
             >
               A decentralized medical knowledge
             </Heading>
           </Parallax>
-          <Parallax translateX={["12vw", "0vw"]} easing="easeInQuad">
+          <Parallax translateX={[80, -90]} speed={-1} easing="easeInQuad">
             <Heading
               key={ulid()}
               as="h2"
+              whiteSpace="nowrap"
               size={{ base: "xl", md: "xl", lg: "xl", xl: "3xl" }}
               color="white"
               textAlign="center"

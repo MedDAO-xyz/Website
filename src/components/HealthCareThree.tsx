@@ -8,7 +8,11 @@ import FullBleed from "../global/Layout/FullBleed";
 const bulletPoints = healthThree.map((obj) => (
   <HStack alignItems="center" key={obj.id} mb="1.5em">
     <RedBullet />
-    <Text color="black" fontSize="24px" fontFamily="Neue Montreal">
+    <Text
+      color="black"
+      fontSize={{ base: "1em", md: "24px" }}
+      fontFamily="Neue Montreal"
+    >
       {obj.bulletPoint}
     </Text>
   </HStack>
@@ -21,7 +25,7 @@ const HThree = () => {
         as="section"
         w="100%"
         minH="500px"
-        p=".25em"
+        p={{ base: "1em", md: ".25em" }}
         direction="column"
         justifyContent="center"
         alignItems="center"
