@@ -5,38 +5,40 @@ import FullBleed from "./Layout/FullBleed";
 const Footer = () => {
   return (
     <FullBleed>
-      <Flex
-        as="footer"
-        minH="100px"
-        width="100%"
-        maxW="1900px"
-        px="1em"
-        bg="#1d1d1d"
-        direction={{ base: "column", md: "row" }}
-        justifyContent={{ base: "center", md: "space-between" }}
-        alignItems="center"
-      >
-        <Box py="1em">
-          <Image h="65px" src="./MedDAO_Logo_White.svg" />
-        </Box>
+      <Flex w="100%" bg="#1d1d1d">
         <Flex
+          as="footer"
+          minH="100px"
+          minW="100%"
+          maxW="1920px"
+          px="1em"
+          bg="#1d1d1d"
           direction={{ base: "column", md: "row" }}
-          justifyContent="space-between"
-          py="1em"
+          justifyContent={{ base: "center", md: "space-between" }}
+          alignItems="center"
         >
-          <Box color="white" ml={{ base: "none", md: "2em" }}>
-            MedDAO Healthcare © 2022
+          <Box py="1em">
+            <Image h="65px" src="./MedDAO_Logo_White.svg" />
           </Box>
-          <Box color="white" ml={{ base: "none", md: "2em" }}>
-            Built with ❤️ by
-          </Box>
-          <Link
-            href="https://www.banklessconsulting.com/"
-            color="red"
-            ml={{ base: "none", md: ".5em" }}
+          <Flex
+            direction={{ base: "column", md: "row" }}
+            justifyContent="space-between"
+            py="1em"
           >
-            Bankless Consulting
-          </Link>
+            <Box color="white" ml={{ base: "none", md: "2em" }}>
+              MedDAO Healthcare © 2022
+            </Box>
+            <Box color="white" ml={{ base: "none", md: "2em" }}>
+              Built with ❤️ by
+            </Box>
+            <Link
+              href="https://www.banklessconsulting.com/"
+              color="red"
+              ml={{ base: "none", md: ".5em" }}
+            >
+              Bankless Consulting
+            </Link>
+          </Flex>
         </Flex>
       </Flex>
     </FullBleed>
