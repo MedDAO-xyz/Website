@@ -17,7 +17,7 @@ const Footer = () => {
         alignItems="center"
       >
         <Box py="1em">
-          <Image h="65px" src="./logo_wName_White.png" />
+          <Image h="65px" src="./MedDAO_Logo_White.svg" />
         </Box>
         <Flex
           direction={{ base: "column", md: "row" }}

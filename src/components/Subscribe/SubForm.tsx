@@ -43,6 +43,7 @@ function SubForm() {
         _placeholder={{ opacity: 1, color: "grey" }}
         color="white"
         alignSelf="baseline"
+        focusBorderColor="none"
         borderRadius={0}
         onChange={(e: any) => setEmail(e.target.value)}
         border="none"

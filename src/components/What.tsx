@@ -31,6 +31,7 @@ const What = () => {
           <Heading
             as="h3"
             mb="1rem"
+            fontFamily="IBM Plex Mono"
             fontSize={{ base: "3rem", lg: "4rem" }}
             fontWeight={500}
           >
@@ -55,6 +56,7 @@ const What = () => {
           direction="column"
           alignItems="center"
           w={{ base: "90%", md: "60%" }}
+          pr="1em"
           minW="320px"
           minH="100px"
         >
@@ -69,6 +71,7 @@ const What = () => {
           >
             <Image w="100%" maxH="100%" objectFit="fill" src="./grid.svg" />
             <Flex
+              maxW={{ base: "100%", md: "95%" }}
               w="100%"
               minH="80%"
               position="absolute"

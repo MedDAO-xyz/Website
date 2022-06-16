@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <FullBleed>
       <Grid
-        h={{ sm: "20vh", md: "70vh" }}
+        h={{ sm: "60vh", md: "70vh" }}
         w="100vw"
         alignItems="center"
         justifyContent="center"
@@ -38,7 +38,7 @@ const Hero = () => {
                     color="black"
                     fontWeight={700}
                     m={0}
-                    my='1.5rem'
+                    my="1.5rem"
                   >
                     A New
                   </Heading>
@@ -51,7 +51,7 @@ const Hero = () => {
                     color="black"
                     fontWeight={700}
                     m={0}
-                    my='1.5rem'
+                    my="1.5rem"
                   >
                     Value Layer
                   </Heading>
@@ -62,7 +62,7 @@ const Hero = () => {
                     color="black"
                     fontWeight={700}
                     m={0}
-                    my='1.5rem'
+                    my="1.5rem"
                   >
                     In Healthcare
                   </Heading>

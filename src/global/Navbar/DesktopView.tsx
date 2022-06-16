@@ -22,8 +22,8 @@ export const DesktopView = () => {
         px="1rem"
         maxW={{ base: "100%", lg: "1440px" }}
       >
-        <Box w="10.2rem" h="auto">
-          <Image src="./MedDAO_Logo_WName.png" alt="MedDAO logo" />
+        <Box w="13rem" h="auto">
+          <Image src="./MedDAO_Logo_Red.svg" alt="MedDAO logo" />
         </Box>
         <HStack spacing="2em" align="center">
           <Link href="/#why">
@@ -52,6 +52,7 @@ export const DesktopView = () => {
               fontFamily="Neue Montreal"
               fontSize="1.2em"
               fontWeight={500}
+              scrollMarginTop="800px"
             >
               Roadmap
             </Text>

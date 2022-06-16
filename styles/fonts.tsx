@@ -6,14 +6,6 @@ const Fonts = () => (
       /* latin */
       @font-face {
         font-family: 'Neue Montreal';
-        font-style: normal;
-        font-weight: 500;
-        font-display: swap;
-        src: url('/fonts/neue/Medium.otf') format("opentype");
-      }
-      /* latin */
-      @font-face {
-        font-family: 'Neue Montreal';
         font-style: bold;
         font-weight: 700;
         font-display: swap;

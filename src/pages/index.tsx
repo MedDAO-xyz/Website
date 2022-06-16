@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       {/* grid item ensures the 1st item starts below navbar */}
       <GridItem gridColumn={2} h="5rem" />
       <Hero />
-      <LogoTransition />
+      {/* <LogoTransition /> */}
       <What />
       <HealthCareThree />
       <WhyMedDAO />

@@ -13,7 +13,7 @@ export const healthThree = [
   {
     id: 4,
     bulletPoint:
-      "Collaborative participation of our community including healthcare providers, patients, developers and industry partners for some thing or other thing blah blah",
+      "Collaborative participation of our community including healthcare providers, patients, developers and industry partners",
   },
 ];
 
@@ -152,13 +152,13 @@ export const roadmap: objective[] = [
     objective: "Establish MedDAO grants program",
     completed: false,
     inProgress: false,
-    futurePlans: true,
+    futurePlans: false,
   },
   {
     id: 9,
     objective: "Fully decentralize governance",
     completed: false,
     inProgress: false,
-    futurePlans: true,
+    futurePlans: false,
   },
 ];

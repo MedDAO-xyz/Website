@@ -23,7 +23,7 @@ export const HeroCard = ({ title }: HeroCardProps) => (
         alignItems="center"
       >
         <Text
-          fontSize="6xl"
+          fontSize="5xl"
           textAlign={"center"}
           color="white"
           fontWeight={700}

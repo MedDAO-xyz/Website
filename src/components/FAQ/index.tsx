@@ -42,7 +42,7 @@ const faqAccordion = faq.map((qa) => (
         minH="90px"
       >
         <Box flex="1" textAlign="left">
-          <Text fontFamily="Neue Montreal" fontWeight="400">
+          <Text fontFamily="IBM Plex Mono" fontWeight="400">
             {qa.q}
           </Text>
         </Box>

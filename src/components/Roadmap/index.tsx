@@ -8,8 +8,8 @@ import { MobileView } from "./MobileView";
 const Roadmap = () => {
   const isMobile = useIsMobile();
   return (
-    <MainColumn id="roadmap">
-      <Flex py="2em" direction="column">
+    <MainColumn>
+      <Flex py="2em" id="roadmap" scrollMarginTop="5em" direction="column">
         <Heading as="h3" color="black" px={{ base: "2rem", md: "none" }}>
           Roadmap
         </Heading>
