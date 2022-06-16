@@ -24,8 +24,12 @@ const Footer = () => {
           justifyContent="space-between"
           py="1em"
         >
-          <Box ml={{ base: "none", md: "2em" }}>MedDAO Healthcare © 2022</Box>
-          <Box ml={{ base: "none", md: "2em" }}>Built with ❤️ by</Box>
+          <Box color="white" ml={{ base: "none", md: "2em" }}>
+            MedDAO Healthcare © 2022
+          </Box>
+          <Box color="white" ml={{ base: "none", md: "2em" }}>
+            Built with ❤️ by
+          </Box>
           <Link
             href="https://www.banklessconsulting.com/"
             color="red"
