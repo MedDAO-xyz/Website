@@ -34,12 +34,16 @@ const Socials = () => {
         <Link color="#FF003F" href="#" target="_blank" flexWrap="nowrap">
           <MirrorIcon /> Mirror
         </Link>
-        <Link color="#FF003F" href="#" target="_blank">
+        <Link
+          color="#FF003F"
+          href="https://twitter.com/MedDAO_xyz"
+          target="_blank"
+        >
           <TwitterIcon /> Twitter
         </Link>
         <Link
           color="#FF003F"
-          href="https://discord.gg/ZHE7BrQD"
+          href="https://discord.gg/6Sf9GmEx"
           target="_blank"
         >
           <DiscordIcon /> Discord

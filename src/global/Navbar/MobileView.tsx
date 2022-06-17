@@ -85,7 +85,7 @@ export const MobileView = () => {
                   Roadmap
                 </Text>
               </Link>
-              <BaseButton href="https://discord.gg/ZHE7BrQD" text="JOIN US" />
+              <BaseButton href="https://discord.gg/6Sf9GmEx" text="JOIN US" />
             </VStack>
           </DrawerBody>
           <DrawerFooter />
