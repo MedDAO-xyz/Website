@@ -48,11 +48,12 @@ function SubForm() {
         onChange={(e: any) => setEmail(e.target.value)}
         border="none"
       />
-      <Box
+      <Flex
         py=".5em"
         px={{ base: "none", md: ".5em" }}
         h={{ base: "54px", md: "70px" }}
         bg={{ base: "white", md: "black" }}
+        align="center"
       >
         <Button
           mt={{ base: ".25em", md: "0px" }}
@@ -65,7 +66,7 @@ function SubForm() {
           SUBSCRIBE
           <ArrowIcon />
         </Button>
-      </Box>
+      </Flex>
     </Flex>
   );
 }
