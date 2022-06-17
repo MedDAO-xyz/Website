@@ -19,17 +19,17 @@ const Objectives = roadmap.map((obj) => (
     <Td color="black" borderBottom="none">
       {obj.objective}
     </Td>
-    <Td>
+    <Td borderBottom="none">
       <Flex justifyContent="center">
         {obj.completed ? <FullCircle /> : <EmptyCircle />}
       </Flex>
     </Td>
-    <Td>
+    <Td borderBottom="none">
       <Flex justifyContent="center">
         {obj.inProgress ? <HalfCircle /> : <EmptyCircle />}
       </Flex>
     </Td>
-    <Td>
+    <Td borderBottom="none">
       <Flex justifyContent="center">
         {obj.futurePlans ? <FullCircle /> : <EmptyCircle />}
       </Flex>
