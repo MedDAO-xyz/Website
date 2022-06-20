@@ -8,6 +8,8 @@ const Hero = () => {
     <FullBleed>
       <Flex
         as="section"
+        id="hero"
+        scrollMarginTop="5em"
         py="50px"
         w="100%"
         position="relative"
@@ -38,8 +40,8 @@ const Hero = () => {
               <Heading
                 as="h1"
                 fontFamily="Neue Montreal"
-                fontWeight={700}
-                fontSize={{ base: "3em", md: "4em", xl: "5em" }}
+                fontWeight={400}
+                fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
                 color="black"
               >
                 A New
@@ -48,8 +50,8 @@ const Hero = () => {
                 as="h1"
                 fontFamily="Neue Montreal"
                 textAlign="center"
-                fontWeight={700}
-                fontSize={{ base: "3em", md: "4em", xl: "5em" }}
+                fontWeight={400}
+                fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
                 color="black"
               >
                 Value Layer
@@ -57,8 +59,8 @@ const Hero = () => {
               <Heading
                 as="h1"
                 fontFamily="Neue Montreal"
-                fontWeight={700}
-                fontSize={{ base: "3em", md: "4em", xl: "5em" }}
+                fontWeight={400}
+                fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
                 color="black"
               >
                 In
@@ -66,8 +68,8 @@ const Hero = () => {
               <Heading
                 as="h1"
                 fontFamily="Neue Montreal"
-                fontWeight={700}
-                fontSize={{ base: "3em", md: "4em", xl: "5em" }}
+                fontWeight={400}
+                fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
                 color="black"
               >
                 Healthcare

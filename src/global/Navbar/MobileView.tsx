@@ -30,7 +30,9 @@ export const MobileView = () => {
       justifyContent="space-between"
     >
       <Box w="200px" h="auto">
-        <Image src="./MedDAO_Logo_Red.svg" alt="MedDAO logo" />
+        <Link href="/#hero">
+          <Image src="./MedDAO_Logo_Red.svg" alt="MedDAO logo" />
+        </Link>
       </Box>
       <VStack
         as="button"
@@ -50,7 +52,9 @@ export const MobileView = () => {
           <DrawerCloseButton />
           <DrawerHeader>
             <Box w="270px">
-              <Image src="./MedDAO_Logo_Red.svg" alt="MedDAO logo" />
+              <Link href="/#hero">
+                <Image src="./MedDAO_Logo_Red.svg" alt="MedDAO logo" />
+              </Link>
             </Box>
           </DrawerHeader>
           <DrawerBody>

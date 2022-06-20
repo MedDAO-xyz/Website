@@ -6,6 +6,12 @@ type Props = {
   id?: string;
 };
 
+const obj = {
+  thing: {
+    second: "here",
+  },
+};
+
 const FullBleed = ({ children, id }: Props) => {
   return (
     <GridItem colSpan={3} id={id}>

@@ -24,7 +24,6 @@ const Home: NextPage = () => {
       <Roadmap />
       <FAQ />
       <Subscribe />
-      {/* <GridItem gridColumn={2} h="5rem" /> */}
     </>
   );
 };

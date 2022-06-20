@@ -4,8 +4,8 @@ import React from "react";
 const FullCircle = () => {
   return (
     <Box
-    w={{base: '16px',lg:"24px"}}
-    h={{base: '16px',lg:"24px"}}
+      w={{ base: "16px", lg: "20px" }}
+      h={{ base: "16px", lg: "20px" }}
       borderRadius="50%"
       bg="#FF003F"
       border="1px solid #FF003F"

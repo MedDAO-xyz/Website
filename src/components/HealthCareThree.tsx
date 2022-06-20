@@ -6,11 +6,11 @@ import { TrippleChevron } from "../global/Icon/TrippleChevron";
 import FullBleed from "../global/Layout/FullBleed";
 
 const bulletPoints = healthThree.map((obj) => (
-  <HStack alignItems="center" key={obj.id} mb="1.5em">
+  <HStack alignItems="center" key={obj.id} mb="1em">
     <RedBullet />
     <Text
       color="black"
-      fontSize={{ base: "1em", md: "24px" }}
+      fontSize={{ base: "1em", md: "20px" }}
       fontFamily="Neue Montreal"
     >
       {obj.bulletPoint}
@@ -44,7 +44,7 @@ const HThree = () => {
           direction="column"
           maxW="1280px"
           bg="white"
-          py="1em"
+          pt="1em"
           px="1em"
           justify="flex-start"
           borderRadius="1em"

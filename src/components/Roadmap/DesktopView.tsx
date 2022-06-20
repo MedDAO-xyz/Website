@@ -44,12 +44,24 @@ export const DesktopView = () => (
         <Tr display={{ base: "none", md: "table-row" }}>
           <Th></Th>
           <Th color="black">
-            <Flex justifyContent="center">Completed</Flex>
+            <Flex
+              justifyContent="center"
+              fontFamily="IBM Flex Mono"
+              fontWeight={400}
+            >
+              Completed
+            </Flex>
           </Th>
           <Th color="black">
-            <Flex justifyContent="center">In Progress</Flex>
+            <Flex
+              justifyContent="center"
+              fontFamily="IBM Flex Mono"
+              fontWeight={400}
+            >
+              In Progress
+            </Flex>
           </Th>
-          <Th color="black">
+          <Th color="black" fontFamily="IBM Flex Mono" fontWeight={400}>
             <Flex justifyContent="center">Future Plans</Flex>
           </Th>
         </Tr>

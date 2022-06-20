@@ -26,7 +26,7 @@ const Footer = () => {
             py="1em"
           >
             <Box color="white" ml={{ base: "none", md: "2em" }}>
-              MedDAO Healthcare © 2022
+              MedDAO © 2022
             </Box>
             <Box color="white" ml={{ base: "none", md: "2em" }}>
               Built with ❤️ by

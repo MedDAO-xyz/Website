@@ -23,7 +23,9 @@ export const DesktopView = () => {
         maxW={{ base: "100%", lg: "1440px" }}
       >
         <Box w="13rem" h="auto" mr="1em">
-          <Image src="./MedDAO_Logo_Red.svg" alt="MedDAO logo" />
+          <Link href="/#hero">
+            <Image src="./MedDAO_Logo_Red.svg" alt="MedDAO logo" />
+          </Link>
         </Box>
         <HStack spacing="2em" align="center">
           <Link href="/#why">

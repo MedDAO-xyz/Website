@@ -46,7 +46,7 @@ const faqAccordion = faq.map((qa) => (
             {qa.q}
           </Text>
         </Box>
-        <AccordionIcon />
+        <AccordionIcon w="1.5em" h="1.5em" bg="#fff4f7" borderRadius="50%" />
       </AccordionButton>
     </h2>
     {handleSpecialFAQ(qa)}
