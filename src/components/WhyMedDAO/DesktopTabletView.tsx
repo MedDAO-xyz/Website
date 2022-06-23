@@ -15,7 +15,7 @@ type ContentProps = {
 };
 
 export const DesktopTabletView = () => (
-  <Box as="section" w="100%" h="fit-content" my="8rem">
+  <Box as="section" w="100%" h="fit-content" my={{ md: "0px", lg: "2em" }}>
     <Grid
       as="ul"
       gridTemplateColumns={{ md: "1fr 1fr", lg: "1fr 1fr 1fr" }}
@@ -30,7 +30,14 @@ export const DesktopTabletView = () => (
           if (isLeadCard) {
             return <HeroCard key={ulid()} {...card} />;
           } else {
-            return <Card key={ulid()} {...card} isEvenCard={isEvenCard} cardIndex={index} />;
+            return (
+              <Card
+                key={ulid()}
+                {...card}
+                isEvenCard={isEvenCard}
+                cardIndex={index}
+              />
+            );
           }
         })}
     </Grid>

@@ -1,10 +1,9 @@
-import { Box, Flex, HStack, Text } from "@chakra-ui/react";
+import { Flex, HStack, Text } from "@chakra-ui/react";
 import React from "react";
 import { Slide } from "react-awesome-reveal";
-import { healthThree } from "../constants/daoInfo";
-import { RedBullet } from "../global/Icon/RedBullet";
+import { RedBullet } from "../../global/Icon/RedBullet";
 
-const HThree = () => {
+const BulletPoints = () => {
   return (
     <Flex w="100%" pt="0.5em" px="1em" mt="0.5em" direction="column">
       <Slide direction="right" delay={100} triggerOnce>
@@ -61,4 +60,4 @@ const HThree = () => {
   );
 };
 
-export default HThree;
+export default BulletPoints;

@@ -5,7 +5,7 @@ import { useIsMobile } from "../_hooks";
 import { DesktopView } from "./DesktopView";
 import { MobileView } from "./MobileView";
 
-const TextScroll = () => {
+const HealthThree = () => {
   const isMobile = useIsMobile();
   return (
     <FullBleed>
@@ -15,4 +15,4 @@ const TextScroll = () => {
   );
 };
 
-export default TextScroll;
+export default HealthThree;

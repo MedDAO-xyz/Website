@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { BgImage } from "./BgImage";
 import { TrippleChevron } from "../../global/Icon/TrippleChevron";
-import HThree from "../HealthCareThree";
+import HThree from "./BulletPoints";
 import { Fade, Slide } from "react-awesome-reveal";
 
 export const DesktopView = () => {

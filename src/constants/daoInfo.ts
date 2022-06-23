@@ -1,22 +1,3 @@
-export const healthThree = [
-  { id: 1, bulletPoint: "Aligned incentives using blockchain technology" },
-  {
-    id: 2,
-    bulletPoint:
-      "Knowledge and data owned by members of the DAO rather than companies",
-  },
-  {
-    id: 3,
-    bulletPoint:
-      "Increase trust in the knowledge available through multiple opinions & collective wisdom",
-  },
-  {
-    id: 4,
-    bulletPoint:
-      "Collaborative participation of our community including healthcare providers, patients, developers and industry partners",
-  },
-];
-
 export type qa = {
   id: number;
   q: string;
