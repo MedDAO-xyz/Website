@@ -20,6 +20,7 @@ export default function Layout({ children }: LayoutProps) {
         as="main"
         w="100vw"
         maxW="100%"
+        overflowX="hidden"
         minH="100vh"
         bg="#FFFFFF"
         gridTemplateColumns={"1fr minmax(320px, 1280px) 1fr"}
