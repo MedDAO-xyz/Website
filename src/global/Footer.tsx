@@ -5,12 +5,13 @@ import FullBleed from "./Layout/FullBleed";
 const Footer = () => {
   return (
     <FullBleed>
-      <Flex w="100%" bg="#1d1d1d">
+      <Flex w="100%" bg="#1d1d1d" justifyContent="center">
         <Flex
           as="footer"
           minH="100px"
-          minW="100%"
-          maxW="1920px"
+          w="100%"
+          maxW="1440px"
+          border="none"
           px="1em"
           bg="#1d1d1d"
           direction={{ base: "column", md: "row" }}

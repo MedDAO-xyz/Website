@@ -1,10 +1,11 @@
-import { Flex, Grid, GridItem, Heading, VStack } from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem, Heading, VStack } from "@chakra-ui/react";
 import { ulid } from "ulid";
+import { TrippleChevron } from "../../global/Icon/TrippleChevron";
+import HThree from "../HealthCareThree";
 import { BgImage } from "./BgImage";
 
 export const MobileView = () => (
   <Grid
-    h="80vh"
     w="100vw"
     alignItems="center"
     justifyContent="center"
@@ -12,22 +13,25 @@ export const MobileView = () => (
     gridTemplateColumns="1fr"
     gridTemplateRows="1fr"
     templateAreas={`"main"`}
-    overflow="hidden"
   >
-    <GridItem area={"main"} w="100%">
+    <GridItem area={"main"} maxH="100%" h="100%" w="100%" overflow="hidden">
       <BgImage />
     </GridItem>
     <GridItem area={"main"} w="100%" zIndex={1}>
-      <Flex w="100%" px="3rem">
+      <Flex w="100%" px=".5em" direction="column" align="center">
         <Heading
-          key={ulid()}
           as="h2"
-          size="2xl"
+          fontFamily="Neue Montreal"
           color="white"
-          textAlign="center"
+          fontSize="2em"
         >
-          A decentralized medical knowledge network at your fingertips.
+          Web3
         </Heading>
+        <Box h="1em">
+          <TrippleChevron />
+        </Box>
+        <Heading>Healthcare 3.0</Heading>
+        <HThree />
       </Flex>
     </GridItem>
   </Grid>

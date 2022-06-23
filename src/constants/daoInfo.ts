@@ -152,13 +152,13 @@ export const roadmap: objective[] = [
     objective: "Establish MedDAO grants program",
     completed: false,
     inProgress: false,
-    futurePlans: false,
+    futurePlans: true,
   },
   {
     id: 9,
     objective: "Fully decentralize governance",
     completed: false,
     inProgress: false,
-    futurePlans: false,
+    futurePlans: true,
   },
 ];

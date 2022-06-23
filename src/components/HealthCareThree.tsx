@@ -1,59 +1,63 @@
-import { Box, Flex, Heading, HStack, Text, VStack } from "@chakra-ui/react";
+import { Box, Flex, HStack, Text } from "@chakra-ui/react";
 import React from "react";
+import { Slide } from "react-awesome-reveal";
 import { healthThree } from "../constants/daoInfo";
 import { RedBullet } from "../global/Icon/RedBullet";
-import { TrippleChevron } from "../global/Icon/TrippleChevron";
-import FullBleed from "../global/Layout/FullBleed";
-
-const bulletPoints = healthThree.map((obj) => (
-  <HStack alignItems="center" key={obj.id} mb="1em">
-    <RedBullet />
-    <Text
-      color="black"
-      fontSize={{ base: "1em", md: "20px" }}
-      fontFamily="Neue Montreal"
-    >
-      {obj.bulletPoint}
-    </Text>
-  </HStack>
-));
 
 const HThree = () => {
   return (
-    <FullBleed>
-      <Flex
-        as="section"
-        w="100%"
-        minH="500px"
-        p={{ base: "1em", md: ".25em" }}
-        direction="column"
-        justifyContent="center"
-        alignItems="center"
-        bg="linear-gradient(180deg, #ff003f 0%, #0b0006 211.38%)"
-      >
-        <Box>
-          <Heading as="h2" fontFamily="Neue Montreal" color="white">
-            Web3
-            <TrippleChevron />
-            Healthcare 3.0
-          </Heading>{" "}
-        </Box>
-
-        <Flex
-          w="100%"
-          direction="column"
-          maxW="1280px"
-          bg="white"
-          pt="1em"
-          px="1em"
-          justify="flex-start"
-          borderRadius="1em"
-          mt="1em"
-        >
-          {bulletPoints}
-        </Flex>
-      </Flex>
-    </FullBleed>
+    <Flex w="100%" pt="0.5em" px="1em" mt="0.5em" direction="column">
+      <Slide direction="right" delay={100} triggerOnce>
+        <HStack alignItems="center" mb="1em">
+          <RedBullet />
+          <Text
+            color="white"
+            fontSize={{ base: "1em", md: "1.5em" }}
+            fontFamily="Neue Montreal"
+          >
+            Aligned incentives using blockchain technology
+          </Text>
+        </HStack>
+      </Slide>
+      <Slide direction="right" delay={150} triggerOnce>
+        <HStack alignItems="center" mb="1em">
+          <RedBullet />
+          <Text
+            color="white"
+            fontSize={{ base: "1em", md: "1.5em" }}
+            fontFamily="Neue Montreal"
+          >
+            Knowledge and data owned by members of the DAO rather than companies
+          </Text>
+        </HStack>
+      </Slide>
+      <Slide direction="right" delay={200} triggerOnce>
+        <HStack alignItems="center" mb="1em">
+          <RedBullet />
+          <Text
+            color="white"
+            fontSize={{ base: "1em", md: "1.5em" }}
+            fontFamily="Neue Montreal"
+          >
+            Increase trust in the knowledge available through multiple opinions
+            & collective wisdom
+          </Text>
+        </HStack>
+      </Slide>
+      <Slide direction="right" delay={250} triggerOnce>
+        <HStack alignItems="center" mb="1em">
+          <RedBullet />
+          <Text
+            color="white"
+            fontSize={{ base: "1em", md: "1.5em" }}
+            fontFamily="Neue Montreal"
+          >
+            Collaborative participation of our community including healthcare
+            providers, patients, developers and industry partners
+          </Text>
+        </HStack>
+      </Slide>
+    </Flex>
   );
 };
 

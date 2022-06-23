@@ -1,7 +1,14 @@
 import { Icon } from "@chakra-ui/react";
 
 export const TrippleChevron = () => (
-  <Icon viewBox="0 0  39 19" color="red.500" mb=".25em" mx=".25em">
+  <Icon
+    h={{ base: "100%", md: ".5em" }}
+    w="auto"
+    viewBox="0 0  39 19"
+    color="red.500"
+    mb=".25em"
+    mx=".25em"
+  >
     <path
       d="M21.7115 0L30.1499 9.50001L21.7115 19H29.9555L38.4067 9.50001L29.9555 0H21.7115Z"
       fill="white"

@@ -60,11 +60,12 @@ const move = keyframes`
 
 export const BgImage = () => (
   <VStack
-    h="80vh"
+    h="100%"
     w="100vw"
     justifyContent="center"
     alignItems="center"
     pos="relative"
+    className="tmp"
   >
     <Image
       pos="absolute"
@@ -72,7 +73,7 @@ export const BgImage = () => (
       h="100%"
       w="100%"
       objectFit="cover"
-      zIndex={0}
+      zIndex={1}
       animation={`${move} 20s ease-in infinite`}
     />
   </VStack>

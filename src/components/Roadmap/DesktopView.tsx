@@ -21,17 +21,17 @@ const Objectives = roadmap.map((obj) => (
     </Td>
     <Td borderBottom="none">
       <Flex justifyContent="center">
-        {obj.completed ? <FullCircle /> : <EmptyCircle />}
+        {obj.completed ? <FullCircle /> : null}
       </Flex>
     </Td>
     <Td borderBottom="none">
       <Flex justifyContent="center">
-        {obj.inProgress ? <HalfCircle /> : <EmptyCircle />}
+        {obj.inProgress ? <HalfCircle /> : null}
       </Flex>
     </Td>
     <Td borderBottom="none">
       <Flex justifyContent="center">
-        {obj.futurePlans ? <FullCircle /> : <EmptyCircle />}
+        {obj.futurePlans ? <EmptyCircle /> : null}
       </Flex>
     </Td>
   </Tr>
@@ -46,7 +46,7 @@ export const DesktopView = () => (
           <Th color="black">
             <Flex
               justifyContent="center"
-              fontFamily="IBM Flex Mono"
+              fontFamily="Neue Montreal"
               fontWeight={400}
             >
               Completed
@@ -55,13 +55,13 @@ export const DesktopView = () => (
           <Th color="black">
             <Flex
               justifyContent="center"
-              fontFamily="IBM Flex Mono"
+              fontFamily="Neue Montreal"
               fontWeight={400}
             >
               In Progress
             </Flex>
           </Th>
-          <Th color="black" fontFamily="IBM Flex Mono" fontWeight={400}>
+          <Th color="black" fontFamily="Neue Montreal" fontWeight={400}>
             <Flex justifyContent="center">Future Plans</Flex>
           </Th>
         </Tr>

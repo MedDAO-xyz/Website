@@ -20,7 +20,14 @@ const SubBlock = () => {
       px={{ base: "2em", md: "none" }}
     >
       <Flex alignItems="center" py=".5em" minW="320px" flexWrap="nowrap">
-        <Heading as="h6" fontSize="42px" color="black" w="auto">
+        <Heading
+          as="h6"
+          fontFamily="Neue Montreal"
+          fontWeight={700}
+          fontSize="42px"
+          color="black"
+          w="auto"
+        >
           STAY IN TOUCH
         </Heading>
       </Flex>

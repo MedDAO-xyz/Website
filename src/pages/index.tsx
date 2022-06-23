@@ -18,9 +18,9 @@ const Home: NextPage = () => {
       <Hero />
       {/* <LogoTransition /> */}
       <What />
-      <HealthCareThree />
-      <WhyMedDAO />
       <TextScroll />
+      {/* <HealthCareThree /> */}
+      <WhyMedDAO />
       <Roadmap />
       <FAQ />
       <Subscribe />

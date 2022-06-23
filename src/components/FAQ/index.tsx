@@ -64,8 +64,13 @@ const FAQ = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <Heading as="h3" color="black">
-          FAQ
+        <Heading
+          fontFamily="Neue Montreal"
+          as="h3"
+          color="black"
+          fontWeight={700}
+        >
+          FAQs
         </Heading>
         <Accordion
           maxW="1280px"
