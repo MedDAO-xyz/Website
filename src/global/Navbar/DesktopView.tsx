@@ -7,6 +7,7 @@ export const DesktopView = () => {
     <VStack
       as="nav"
       width="100vw"
+      maxW="100%"
       h="5rem"
       position="fixed"
       top={0}

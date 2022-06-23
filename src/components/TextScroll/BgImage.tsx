@@ -61,7 +61,7 @@ const move = keyframes`
 export const BgImage = () => (
   <VStack
     h="100%"
-    w="100vw"
+    w="100%"
     justifyContent="center"
     alignItems="center"
     pos="relative"

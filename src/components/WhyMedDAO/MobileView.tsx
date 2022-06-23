@@ -21,7 +21,8 @@ type ContentProps = {
 const StyledSlider = styled(Slider)`
   & > *.slick-dots {
     display: flex !important;
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
     position: absolute;
     bottom: 20px;
     left: 0px;
@@ -44,7 +45,6 @@ const StyledSlider = styled(Slider)`
     & > .slick-active {
       box-shadow: inset 100px 0 0 0 #ff003f;
       transition: all ease 5s;
-      
     }
   }
 `;
@@ -74,12 +74,13 @@ export const MobileView = () => {
       gridTemplateRows={"20rem 20rem"}
       h="100%"
       w="100vw"
+      maxW="100%"
       py="3rem"
     >
-      <GridItem w="100vw">
+      <GridItem w="100%">
         <HeroCard {...heroCard} />
       </GridItem>
-      <GridItem w="100vw">
+      <GridItem w="100vw" maxW="100%">
         <StyledSlider {...settings}>
           {cards &&
             cards.map((card: ContentProps, index: number) => {
@@ -89,7 +90,7 @@ export const MobileView = () => {
                   key={ulid()}
                   {...card}
                   isEvenCard={isEvenCard}
-                  cardIndex={index+1}
+                  cardIndex={index + 1}
                 />
               );
             })}

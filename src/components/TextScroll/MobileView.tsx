@@ -6,7 +6,7 @@ import { BgImage } from "./BgImage";
 
 export const MobileView = () => (
   <Grid
-    w="100vw"
+    w="100%"
     alignItems="center"
     justifyContent="center"
     bg="black"

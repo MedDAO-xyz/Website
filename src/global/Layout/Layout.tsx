@@ -18,7 +18,8 @@ export default function Layout({ children }: LayoutProps) {
       </Head>
       <Grid
         as="main"
-        minW="100vw"
+        w="100vw"
+        maxW="100%"
         minH="100vh"
         bg="#FFFFFF"
         gridTemplateColumns={"1fr minmax(320px, 1280px) 1fr"}
@@ -35,21 +36,3 @@ export default function Layout({ children }: LayoutProps) {
     </>
   );
 }
-
-// .mainLayout {
-//     min-width: 100vw;
-//     min-height: 100vh;
-//     display: grid;
-//     grid-template-columns: 1fr minmax(320px, 1500px) 1fr;
-//     grid-auto-rows: minmax(min-content, max-content);
-//   }
-
-// export default function Layout({ children }: LayoutProps) {
-//   return (
-//     <main className="mainLayout">
-//       <Navbar />
-//       {children}
-//       <Footer />
-//     </main>
-//   );
-// }

@@ -17,7 +17,7 @@ export const DesktopView = () => {
     <Grid
       h="auto"
       minH="80vh"
-      w="100vw"
+      w="100%"
       alignItems="center"
       justifyContent="center"
       bg="black"
