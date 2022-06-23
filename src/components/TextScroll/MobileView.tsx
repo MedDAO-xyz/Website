@@ -30,7 +30,14 @@ export const MobileView = () => (
         <Box h="1em">
           <TrippleChevron />
         </Box>
-        <Heading>Healthcare 3.0</Heading>
+        <Heading
+          as="h2"
+          fontFamily="Neue Montreal"
+          color="white"
+          fontSize="2em"
+        >
+          Healthcare 3.0
+        </Heading>
         <HThree />
       </Flex>
     </GridItem>
