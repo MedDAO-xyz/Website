@@ -30,14 +30,14 @@ export const DesktopView = () => {
         <BgImage />
       </GridItem>
       <GridItem area={"main"} w="100%" zIndex={2}>
-        <VStack h="100%" w="100%" align="center" className="Vstack">
+        <VStack h="100%" w="100%" align="center">
           <Box>
             <Fade>
               <Heading
                 as="h2"
                 fontFamily="Neue Montreal"
                 color="white"
-                fontSize={{ base: "2em", md: "4em" }}
+                fontSize={{ base: "2em", sm: "3em", md: "4em" }}
               >
                 Web3
                 <TrippleChevron />

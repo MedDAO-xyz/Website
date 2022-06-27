@@ -5,7 +5,7 @@ import { RedBullet } from "../../global/Icon/RedBullet";
 
 const BulletPoints = () => {
   return (
-    <Flex w="100%" pt="0.5em" px="1em" mt="0.5em" direction="column">
+    <Flex w="100%" pt="0.5em" px="1.25em" mt="0.5em" direction="column">
       <Slide direction="right" delay={100} triggerOnce>
         <HStack alignItems="center" mb="1em">
           <RedBullet />

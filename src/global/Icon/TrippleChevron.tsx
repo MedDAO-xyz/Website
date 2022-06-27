@@ -2,7 +2,7 @@ import { Icon } from "@chakra-ui/react";
 
 export const TrippleChevron = () => (
   <Icon
-    h={{ base: "100%", md: ".5em" }}
+    h={{ base: "100%", sm: ".5em" }}
     w="auto"
     viewBox="0 0  39 19"
     color="red.500"
