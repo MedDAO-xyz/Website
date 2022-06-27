@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem, VStack } from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem, VStack } from "@chakra-ui/react";
 import Slider from "react-slick";
 import { ulid } from "ulid";
 import cardsContent from "./content.json";
@@ -44,7 +44,7 @@ const StyledSlider = styled(Slider)`
     }
     & > .slick-active {
       box-shadow: inset 100px 0 0 0 #ff003f;
-      transition: all ease 5s;
+      transition: all ease 10s;
     }
   }
 `;
@@ -54,7 +54,7 @@ export const MobileView = () => {
     dots: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 10000,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -68,34 +68,36 @@ export const MobileView = () => {
   };
   const [heroCard, ...cards] = cardsContent;
   return (
-    <Grid
-      as="ul"
-      gridTemplateColumns="1fr"
-      gridTemplateRows={"20rem 20rem"}
-      h="100%"
-      w="100vw"
-      maxW="100%"
-      py="3rem"
-    >
-      <GridItem w="100%">
-        <HeroCard {...heroCard} />
-      </GridItem>
-      <GridItem w="100vw" maxW="100%">
-        <StyledSlider {...settings}>
-          {cards &&
-            cards.map((card: ContentProps, index: number) => {
-              const isEvenCard = index % 2 === 0;
-              return (
-                <Card
-                  key={ulid()}
-                  {...card}
-                  isEvenCard={isEvenCard}
-                  cardIndex={index + 1}
-                />
-              );
-            })}
-        </StyledSlider>
-      </GridItem>
-    </Grid>
+    <Flex className="tmp" w="100%" direction="column">
+      <Box w="100%" h="3em" bg="#fff4f7" />
+      <Grid
+        as="ul"
+        gridTemplateColumns="1fr"
+        gridTemplateRows={"20rem 20rem"}
+        // h="100%"
+        w="100vw"
+        maxW="100%"
+      >
+        <GridItem w="100%">
+          <HeroCard {...heroCard} />
+        </GridItem>
+        <GridItem w="100vw" maxW="100%">
+          <StyledSlider {...settings}>
+            {cards &&
+              cards.map((card: ContentProps, index: number) => {
+                const isEvenCard = index % 2 === 0;
+                return (
+                  <Card
+                    key={ulid()}
+                    {...card}
+                    isEvenCard={isEvenCard}
+                    cardIndex={index + 1}
+                  />
+                );
+              })}
+          </StyledSlider>
+        </GridItem>
+      </Grid>
+    </Flex>
   );
 };

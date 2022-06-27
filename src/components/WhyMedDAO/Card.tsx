@@ -36,30 +36,6 @@ export const Card = ({
     listStyleType="none"
     color="black"
   >
-    <HStack as="section" h="fit-content" justifyContent="flex-end">
-      {/* {link && link.href && (
-        <NextLink href={link.href} passHref={true}>
-          <Link as="a" isExternal={true}>
-            <Box h="2rem" w="2rem">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 25 25"
-              >
-                <path
-                  fill="#000"
-                  d="M19 13h-1v6.5c0 .8-.7 1.5-1.5 1.5h-11c-.8 0-1.5-.7-1.5-1.5v-11C4 7.7 4.7 7 5.5 7H12V6H5.5A2.5 2.5 0 0 0 3 8.5v11C3 20.9 4.1 22 5.5 22h11c1.4 0 2.5-1.1 2.5-2.5V13Z"
-                />
-                <path
-                  fill="#000"
-                  d="M22 3h-7v1h5.3L11 13.3l.7.7L21 4.7V10h1V3Z"
-                />
-              </svg>
-            </Box>
-          </Link>
-        </NextLink>
-      )} */}
-    </HStack>
     <Text fontSize="2xl" fontFamily="IBM Plex Mono" fontWeight={500}>
       {title}
     </Text>

@@ -1,4 +1,4 @@
-import { Box, Grid } from "@chakra-ui/react";
+import { Box, Flex, Grid } from "@chakra-ui/react";
 import cardsContent from "./content.json";
 import { HeroCard } from "./HeroCard";
 import { Card } from "./Card";
@@ -15,7 +15,7 @@ type ContentProps = {
 };
 
 export const DesktopTabletView = () => (
-  <Box as="section" w="100%" h="fit-content" my={{ md: "0px", lg: "2em" }}>
+  <Flex as="section" w="100%" direction="column" py={{ md: "none", lg: "2em" }}>
     <Grid
       as="ul"
       gridTemplateColumns={{ md: "1fr 1fr", lg: "1fr 1fr 1fr" }}
@@ -41,5 +41,5 @@ export const DesktopTabletView = () => (
           }
         })}
     </Grid>
-  </Box>
+  </Flex>
 );
