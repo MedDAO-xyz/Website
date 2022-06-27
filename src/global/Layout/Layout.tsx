@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Grid, GridItem } from "@chakra-ui/react";
+import { Grid } from "@chakra-ui/react";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 
@@ -25,10 +25,6 @@ export default function Layout({ children }: LayoutProps) {
         bg="#FFFFFF"
         gridTemplateColumns={"1fr minmax(320px, 1280px) 1fr"}
         gridAutoRows={"minmax(min-content, max-content)"}
-        // sx={{
-        //   "grid-template-columns": "1fr minmax(320px, 1500px) 1fr",
-        //   "grid-auto-rows": "minmax(min-content, max-content)",
-        // }}
       >
         <Navbar />
         {children}
