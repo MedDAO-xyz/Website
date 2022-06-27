@@ -65,7 +65,7 @@ const FAQ = () => {
         justifyContent="center"
       >
         <Heading
-          fontFamily="Neue Montreal"
+          fontFamily="IBM Plex Mono"
           as="h3"
           color="black"
           fontWeight={700}
