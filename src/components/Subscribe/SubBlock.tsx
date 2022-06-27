@@ -17,7 +17,7 @@ const SubBlock = () => {
       direction={{ base: "column", md: "row" }}
       w="100%"
       justifyContent="space-between"
-      px={{ base: "2em", md: "none" }}
+      px={{ base: ".5em", md: "none" }}
     >
       <Flex alignItems="center" py=".5em" minW="320px" flexWrap="nowrap">
         <Heading

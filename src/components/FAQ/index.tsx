@@ -60,18 +60,23 @@ const FAQ = () => {
         bg="#fff4f7"
         w="100%"
         direction="column"
-        p="2em"
+        py="2em"
+        px={{ base: ".25em", md: "2em" }}
         alignItems="center"
         justifyContent="center"
       >
-        <Heading
-          fontFamily="IBM Plex Mono"
-          as="h3"
-          color="black"
-          fontWeight={700}
-        >
-          FAQs
-        </Heading>
+        <Flex maxW="1280px" minW="320px" w="100%">
+          <Heading
+            fontFamily="IBM Plex Mono"
+            as="h3"
+            color="black"
+            fontWeight={700}
+            pl=".5em"
+          >
+            FAQs
+          </Heading>
+        </Flex>
+
         <Accordion
           maxW="1280px"
           minW="320px"
