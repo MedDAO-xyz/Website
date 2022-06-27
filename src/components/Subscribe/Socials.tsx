@@ -43,7 +43,7 @@ const Socials = () => {
         </Link>
         <Link
           color="#FF003F"
-          href="https://discord.gg/6Sf9GmEx"
+          href="https://discord.gg/qwWATcETDq"
           target="_blank"
         >
           <DiscordIcon /> Discord
