@@ -44,7 +44,7 @@ const StyledSlider = styled(Slider)`
     }
     & > .slick-active {
       box-shadow: inset 100px 0 0 0 #ff003f;
-      transition: all ease 10s;
+      transition: all ease 11s;
     }
   }
 `;
