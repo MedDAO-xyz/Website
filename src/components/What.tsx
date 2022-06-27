@@ -34,8 +34,9 @@ const What = () => {
             fontFamily="IBM Plex Mono"
             fontSize={{ base: "1.8rem", lg: "3rem" }}
             fontWeight={500}
+            sx={{ wordSpacing: ".02em" }}
           >
-            What we do
+            What We Do
           </Heading>
           <Text
             as="p"
