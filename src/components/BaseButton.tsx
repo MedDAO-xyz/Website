@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import NextLink from "next/link";
 
 type BaseButtonProps = {
@@ -24,7 +24,9 @@ export const BaseButton = ({ text, href, children }: BaseButtonProps) => (
       >
         {text}
       </Text>
-      {children}
+      <Box h="100%" w="auto">
+        {children}
+      </Box>
     </Button>
   </NextLink>
 );

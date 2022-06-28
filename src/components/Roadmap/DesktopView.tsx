@@ -1,5 +1,7 @@
 import {
+  Box,
   Flex,
+  Img,
   Table,
   TableContainer,
   Tbody,
@@ -10,9 +12,6 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { roadmap } from "../../constants/daoInfo";
-import EmptyCircle from "./EmptyCircle";
-import FullCircle from "./FullCircle";
-import HalfCircle from "./HalfCircle";
 
 const Objectives = roadmap.map((obj) => (
   <Tr key={obj.id} bg={obj.id % 2 ? "white" : "#fff4f7"}>
@@ -21,17 +20,29 @@ const Objectives = roadmap.map((obj) => (
     </Td>
     <Td borderBottom="none">
       <Flex justifyContent="center">
-        {obj.completed ? <FullCircle /> : null}
+        {obj.completed ? (
+          <Box h="32px" width="32px">
+            <Img src="complete.svg" />
+          </Box>
+        ) : null}
       </Flex>
     </Td>
     <Td borderBottom="none">
       <Flex justifyContent="center">
-        {obj.inProgress ? <HalfCircle /> : null}
+        {obj.inProgress ? (
+          <Box h="32px" width="32px">
+            <Img src="half.svg" />
+          </Box>
+        ) : null}
       </Flex>
     </Td>
     <Td borderBottom="none">
       <Flex justifyContent="center">
-        {obj.futurePlans ? <EmptyCircle /> : null}
+        {obj.futurePlans ? (
+          <Box h="32px" width="32px">
+            <Img src="empty.svg" />
+          </Box>
+        ) : null}
       </Flex>
     </Td>
   </Tr>

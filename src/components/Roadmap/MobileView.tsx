@@ -1,4 +1,4 @@
-import { HStack, VStack, Text, Spacer } from "@chakra-ui/react";
+import { HStack, VStack, Text, Spacer, Box, Img } from "@chakra-ui/react";
 import React from "react";
 import { roadmap } from "../../constants/daoInfo";
 import EmptyCircle from "./EmptyCircle";
@@ -41,10 +41,24 @@ export const MobileView = () => (
           spacing="1rem"
           // pr="0.8rem"
         >
-          {obj.completed ? <FullCircle /> : <Spacer maxW="20px" minW="20px" />}
-          {obj.inProgress ? <HalfCircle /> : <Spacer maxW="20px" minW="20px" />}
+          {obj.completed ? (
+            <Box h="24px" width="24px">
+              <Img src="complete.svg" />
+            </Box>
+          ) : (
+            <Spacer maxW="20px" minW="20px" />
+          )}
+          {obj.inProgress ? (
+            <Box h="24px" width="24px">
+              <Img src="half.svg" />
+            </Box>
+          ) : (
+            <Spacer maxW="20px" minW="20px" />
+          )}
           {obj.futurePlans ? (
-            <EmptyCircle />
+            <Box h="24px" width="24px">
+              <Img src="emptyFlex.svg" />
+            </Box>
           ) : (
             <Spacer maxW="20px" minW="20px" />
           )}

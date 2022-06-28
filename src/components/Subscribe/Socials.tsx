@@ -31,13 +31,25 @@ const Socials = () => {
         alignItems="center"
         divider={<StackDivider borderColor="#5D5D5D" />}
       >
-        <Link color="#FF003F" href="#" target="_blank" flexWrap="nowrap">
+        <Link
+          color="#FF003F"
+          href="#"
+          target="_blank"
+          h="2em"
+          display="flex"
+          flexWrap="nowrap"
+          alignItems="center"
+        >
           <MirrorIcon /> Mirror
         </Link>
         <Link
           color="#FF003F"
           href="https://twitter.com/MedDAO_xyz"
           target="_blank"
+          h="2em"
+          display="flex"
+          flexWrap="nowrap"
+          alignItems="center"
         >
           <TwitterIcon /> Twitter
         </Link>
@@ -45,6 +57,10 @@ const Socials = () => {
           color="#FF003F"
           href="https://discord.gg/qwWATcETDq"
           target="_blank"
+          h="2em"
+          display="flex"
+          flexWrap="nowrap"
+          alignItems="center"
         >
           <DiscordIcon /> Discord
         </Link>
