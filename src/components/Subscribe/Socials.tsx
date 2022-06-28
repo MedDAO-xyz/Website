@@ -29,13 +29,15 @@ const Socials = () => {
         h="100%"
         mt={{ base: ".25em", md: "none" }}
         alignItems="center"
-        divider={<StackDivider borderColor="#5D5D5D" />}
+        spacing={0.5}
+        divider={<StackDivider borderColor="#5D5D5D" mx="5px" />}
       >
         <Link
           color="#FF003F"
           href="#"
           target="_blank"
           h="2em"
+          mr="5px"
           display="flex"
           flexWrap="nowrap"
           alignItems="center"
@@ -47,6 +49,7 @@ const Socials = () => {
           href="https://twitter.com/MedDAO_xyz"
           target="_blank"
           h="2em"
+          mr="5px"
           display="flex"
           flexWrap="nowrap"
           alignItems="center"
