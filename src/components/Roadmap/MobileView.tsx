@@ -1,9 +1,6 @@
 import { HStack, VStack, Text, Spacer, Box, Img } from "@chakra-ui/react";
 import React from "react";
 import { roadmap } from "../../constants/daoInfo";
-import EmptyCircle from "./EmptyCircle";
-import FullCircle from "./FullCircle";
-import HalfCircle from "./HalfCircle";
 import { IconCheck } from "./IconCheck";
 import { IconFuture } from "./IconFuture";
 import { IconProgress } from "./IconProgress";
@@ -57,7 +54,7 @@ export const MobileView = () => (
           )}
           {obj.futurePlans ? (
             <Box h="24px" width="24px">
-              <Img src="emptyFlex.svg" />
+              <Img src="empty.svg" />
             </Box>
           ) : (
             <Spacer maxW="20px" minW="20px" />

@@ -1,4 +1,12 @@
-import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import {
+  AspectRatio,
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Text,
+} from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 import { ArrowIcon } from "../global/Icon/Arrow";
@@ -81,7 +89,10 @@ const What = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Box as="video" w="80%" h="auto" src="#" poster={highFive}></Box>
+              <AspectRatio w="80%">
+                <iframe title="KR Journey" src="KRJourney.mp4" />
+              </AspectRatio>
+              {/* <Box as="video" w="80%" h="auto" src="KRJourney.mp4"></Box> */}
             </Flex>
           </Flex>
         </Flex>
