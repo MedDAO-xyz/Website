@@ -3,6 +3,22 @@ import React from "react";
 import { Slide } from "react-awesome-reveal";
 import FullBleed from "../../global/Layout/FullBleed";
 
+type HeadingProps = {
+  title: string;
+};
+
+const HeroHeading = ({ title }: HeadingProps) => (
+  <Heading
+    as="h1"
+    fontFamily="IBM Plex Mono"
+    fontWeight={500}
+    fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
+    color="#FF003F"
+  >
+    {title}
+  </Heading>
+);
+
 const Hero = () => {
   return (
     <FullBleed>
@@ -37,43 +53,10 @@ const Hero = () => {
             direction="column"
           >
             <Slide direction="down" triggerOnce>
-              <Heading
-                as="h1"
-                fontFamily="Neue Montreal"
-                fontWeight={400}
-                fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
-                color="black"
-              >
-                A New
-              </Heading>
-              <Heading
-                as="h1"
-                fontFamily="Neue Montreal"
-                textAlign="center"
-                fontWeight={400}
-                fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
-                color="black"
-              >
-                Value Layer
-              </Heading>
-              <Heading
-                as="h1"
-                fontFamily="Neue Montreal"
-                fontWeight={400}
-                fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
-                color="black"
-              >
-                In
-              </Heading>
-              <Heading
-                as="h1"
-                fontFamily="Neue Montreal"
-                fontWeight={400}
-                fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
-                color="black"
-              >
-                Healthcare
-              </Heading>
+              <HeroHeading title="A New" />
+              <HeroHeading title="Value Layer" />
+              <HeroHeading title="In" />
+              <HeroHeading title="Healthcare" />
             </Slide>
           </Flex>
         </Flex>

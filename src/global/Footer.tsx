@@ -1,5 +1,6 @@
 import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import React from "react";
+import { Heart } from "./Icon/Heart";
 import FullBleed from "./Layout/FullBleed";
 
 const Footer = () => {
@@ -26,19 +27,35 @@ const Footer = () => {
             justifyContent="space-between"
             py="1em"
           >
-            <Box color="white" ml={{ base: "none", md: "2em" }}>
+            <Flex color="white" ml={{ base: "none", md: "2em" }} align="center">
               MedDAO © 2022
-            </Box>
-            <Box color="white" ml={{ base: "none", md: "2em" }}>
-              Built with ❤️ by
-            </Box>
-            <Link
-              href="https://www.banklessconsulting.com/"
-              color="red"
-              ml={{ base: "none", md: ".5em" }}
-            >
-              Bankless Consulting
-            </Link>
+            </Flex>
+            <Flex>
+              <Flex
+                color="white"
+                ml={{ base: "none", md: "2em" }}
+                align="center"
+              >
+                Built with
+              </Flex>
+              <Flex h="2em" align="center">
+                <Heart />
+              </Flex>
+              <Flex color="white" align="center">
+                by
+              </Flex>
+            </Flex>
+            <Flex align="center">
+              <Link
+                href="https://www.banklessconsulting.com/"
+                color="red"
+                ml={{ base: "none", md: ".5em" }}
+                verticalAlign="center"
+                alignContent="center"
+              >
+                Bankless Consulting
+              </Link>
+            </Flex>
           </Flex>
         </Flex>
       </Flex>
