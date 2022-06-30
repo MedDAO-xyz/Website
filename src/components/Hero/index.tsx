@@ -10,8 +10,8 @@ type HeadingProps = {
 const HeroHeading = ({ title }: HeadingProps) => (
   <Heading
     as="h1"
-    fontFamily="IBM Plex Mono"
-    fontWeight={500}
+    fontFamily="Neue Montreal"
+    fontWeight={700}
     fontSize={{ base: "3em", sm: "4em", md: "6em", xl: "6em" }}
     color="#FF003F"
   >
