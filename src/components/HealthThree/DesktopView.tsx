@@ -39,8 +39,6 @@ export const DesktopView = () => {
                 color="white"
                 fontSize={{ base: "2em", sm: "3em", md: "4em" }}
               >
-                Web3
-                <TrippleChevron />
                 Healthcare 3.0
               </Heading>
             </Fade>
