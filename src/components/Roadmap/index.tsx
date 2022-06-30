@@ -10,12 +10,7 @@ const Roadmap = () => {
   return (
     <MainColumn>
       <Flex py="2em" id="roadmap" scrollMarginTop="5em" direction="column">
-        <Heading
-          fontFamily="IBM Plex Mono"
-          as="h3"
-          color="black"
-          px={{ base: "2rem", md: "none" }}
-        >
+        <Heading fontFamily="IBM Plex Mono" as="h3" color="black" pl=".4em">
           Roadmap
         </Heading>
         {!isMobile && <DesktopView />}

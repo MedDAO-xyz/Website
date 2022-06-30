@@ -1,4 +1,4 @@
-import { HStack, VStack, Text, Spacer, Box, Img } from "@chakra-ui/react";
+import { HStack, VStack, Text, Spacer, Box, Img, Flex } from "@chakra-ui/react";
 import React from "react";
 import { roadmap } from "../../constants/daoInfo";
 import { IconCheck } from "./IconCheck";
@@ -8,7 +8,56 @@ import { ulid } from "ulid";
 
 export const MobileView = () => (
   <VStack color="black" px="1.6rem" spacing="0.8rem">
-    <HStack
+    <Flex
+      w="100%"
+      minH="3rem"
+      pr="0.6em"
+      borderBottom="0.5px solid #231F1F"
+      justifyContent="flex-end"
+    >
+      <HStack>
+        <IconCheck />
+        <IconProgress />
+        <IconFuture />
+      </HStack>
+    </Flex>
+    {roadmap.map((obj) => (
+      <Flex
+        key={ulid()}
+        w="100%"
+        minH="3rem"
+        bg={obj.id % 2 ? "white" : "#fff4f7"}
+        justify="space-between"
+      >
+        <Flex align="center" justify="flex-start">
+          {obj.objective}
+        </Flex>
+        <HStack>
+          {obj.completed ? (
+            <Box h="28px" width="28px">
+              <Img src="complete.svg" />
+            </Box>
+          ) : (
+            <Spacer maxW="34px" minW="34px" />
+          )}
+          {obj.inProgress ? (
+            <Box h="28px" width="28px">
+              <Img src="half.svg" />
+            </Box>
+          ) : (
+            <Spacer maxW="30px" minW="30px" />
+          )}
+          {obj.futurePlans ? (
+            <Box h="28px" width="28px">
+              <Img src="empty.svg" />
+            </Box>
+          ) : (
+            <Spacer maxW="30px" minW="30px" />
+          )}
+        </HStack>
+      </Flex>
+    ))}
+    {/* <HStack
       justifyContent="flex-end"
       w="100%"
       spacing="0.5rem"
@@ -36,31 +85,31 @@ export const MobileView = () => (
           justifyContent="center"
           flex="0 0 20vw"
           spacing="1rem"
-          // pr="0.8rem"
+          mr=".5em"
         >
           {obj.completed ? (
-            <Box h="24px" width="24px">
+            <Box h="28px" width="28px">
               <Img src="complete.svg" />
             </Box>
           ) : (
-            <Spacer maxW="20px" minW="20px" />
+            <Spacer maxW="10px" minW="10px" />
           )}
           {obj.inProgress ? (
-            <Box h="24px" width="24px">
+            <Box h="28px" width="28px">
               <Img src="half.svg" />
             </Box>
           ) : (
-            <Spacer maxW="20px" minW="20px" />
+            <Spacer maxW="10px" minW="10px" />
           )}
           {obj.futurePlans ? (
-            <Box h="24px" width="24px">
+            <Box h="28px" width="28px">
               <Img src="empty.svg" />
             </Box>
           ) : (
-            <Spacer maxW="20px" minW="20px" />
+            <Spacer maxW="10px" minW="10px" />
           )}
         </HStack>
       </HStack>
-    ))}
+    ))} */}
   </VStack>
 );

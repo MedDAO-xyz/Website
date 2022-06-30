@@ -15,7 +15,7 @@ import { roadmap } from "../../constants/daoInfo";
 
 const Objectives = roadmap.map((obj) => (
   <Tr key={obj.id} bg={obj.id % 2 ? "white" : "#fff4f7"}>
-    <Td color="black" borderBottom="none">
+    <Td color="black" borderBottom="none" px="1em">
       {obj.objective}
     </Td>
     <Td borderBottom="none">
@@ -50,7 +50,12 @@ const Objectives = roadmap.map((obj) => (
 
 export const DesktopView = () => (
   <TableContainer>
-    <Table variant="striped" colorScheme="brand" textAlign="center">
+    <Table
+      variant="striped"
+      colorScheme="brand"
+      textAlign="center"
+      px={{ base: ".25em", md: "2em" }}
+    >
       <Thead>
         <Tr display={{ base: "none", md: "table-row" }}>
           <Th></Th>

@@ -80,7 +80,7 @@ type objective = {
 export const roadmap: objective[] = [
   {
     id: 1,
-    objective: "Launch gated Discord ",
+    objective: "Launch Discord ",
     completed: true,
     inProgress: false,
     futurePlans: false,

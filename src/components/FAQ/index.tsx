@@ -71,7 +71,7 @@ const FAQ = () => {
             as="h3"
             color="black"
             fontWeight={700}
-            pl=".5em"
+            pl=".4em"
           >
             FAQs
           </Heading>
