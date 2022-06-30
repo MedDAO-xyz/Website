@@ -40,6 +40,7 @@ const faqAccordion = faq.map((qa) => (
         _expanded={{ bg: "#f5f5f5" }}
         borderRadius=".4em"
         minH="90px"
+        px={{ sm: ".5em", lg: "1em" }}
       >
         <Box flex="1" textAlign="left">
           <Text fontFamily="IBM Plex Mono" fontWeight="400">
@@ -61,7 +62,7 @@ const FAQ = () => {
         w="100%"
         direction="column"
         py="2em"
-        px={{ base: ".25em", md: "2em" }}
+        px=".5em"
         alignItems="center"
         justifyContent="center"
       >
@@ -71,7 +72,7 @@ const FAQ = () => {
             as="h3"
             color="black"
             fontWeight={700}
-            pl=".4em"
+            pl={{ sm: ".2em", lg: ".4em" }}
           >
             FAQs
           </Heading>
