@@ -32,7 +32,7 @@ const Objectives = roadmap.map((obj) => (
       {obj.objective}
     </Flex>
     <HStack spacing={10}>
-      //minW based on text width above each icon
+      {/* //minW based on text width above each icon */}
       <Flex minW="102px" justify="center">
         {obj.completed ? (
           <Box h="1.5em" width="1.5em">
