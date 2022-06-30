@@ -34,7 +34,7 @@ const Socials = () => {
       >
         <Link
           color="#FF003F"
-          href="#"
+          href="https://mirror.xyz/0x937F3edF5409133ADc7Cea55D3579253604c6F43"
           target="_blank"
           h="2em"
           mr="5px"
