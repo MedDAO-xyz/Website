@@ -4,7 +4,7 @@ export const Heart = () => (
   <Icon height="100%" width="auto" viewBox="0 0 432 432">
     <path
       fill="ff003f"
-      fill-rule="evenodd"
+      fillRule="evenodd"
       d="M219.3 319h-5.7L85.7 191l78-78 52.3 52.4 52.4-52.3 77.9 77.9zM102 191l114.5 114.5L330.1 191l-61.7-61.7-52.4 52.4-52.3-52.4z"
     />
     <path fill="red" d="M204 221h34v24h-34z" />

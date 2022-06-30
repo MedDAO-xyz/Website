@@ -18,6 +18,13 @@ We do it because we believe that access to medical knowledge and expertise shoul
   },
   {
     id: 2,
+    q: "What isn’t MedDAO?",
+    a: `· It’s not telehealth
+· It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies
+· It’s not shilling NFTs`,
+  },
+  {
+    id: 3,
     q: "Who are some of MedDAO’s stakeholders?",
     a: `· Healthcare professionals
 · Patients
@@ -27,13 +34,6 @@ We do it because we believe that access to medical knowledge and expertise shoul
 · Medicolegal experts
 · Web3 natives
 · Regulators`,
-  },
-  {
-    id: 3,
-    q: "What isn’t MedDAO?",
-    a: `· It’s not telehealth
-· It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies
-· It’s not shilling NFTs`,
   },
   {
     id: 4,
