@@ -71,6 +71,6 @@ export const DesktopView = () => (
       <TableHeading title="In Progress" />
       <TableHeading title="Future Plans" />
     </HStack>
-    {Objectives}
+    <VStack w="100%">{Objectives}</VStack>
   </VStack>
 );
