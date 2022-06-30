@@ -1,88 +1,76 @@
-import {
-  Box,
-  Flex,
-  Img,
-  Table,
-  TableContainer,
-  Tbody,
-  Td,
-  Th,
-  Thead,
-  Tr,
-} from "@chakra-ui/react";
+import { Box, Flex, HStack, Img, VStack } from "@chakra-ui/react";
 import React from "react";
 import { roadmap } from "../../constants/daoInfo";
 
+type HeadingProps = {
+  title: string;
+};
+
+const TableHeading = ({ title }: HeadingProps) => (
+  <Flex
+    color="black"
+    justifyContent="center"
+    fontFamily="Neue Montreal"
+    fontWeight={400}
+    fontSize="22px"
+  >
+    {title}
+  </Flex>
+);
+
 const Objectives = roadmap.map((obj) => (
-  <Tr key={obj.id} bg={obj.id % 2 ? "white" : "#fff4f7"}>
-    <Td color="black" borderBottom="none" px="1em">
+  <Flex
+    key={obj.id}
+    bg={obj.id % 2 ? "white" : "#fff4f7"}
+    justify="space-between"
+    p="1em"
+    align="center"
+    minH="3em"
+    w="100%"
+  >
+    <Flex color="black" borderBottom="none">
       {obj.objective}
-    </Td>
-    <Td borderBottom="none">
-      <Flex justifyContent="center">
+    </Flex>
+    <HStack spacing={10}>
+      //minW based on text width above each icon
+      <Flex minW="102px" justify="center">
         {obj.completed ? (
-          <Box h="32px" width="32px">
+          <Box h="1.5em" width="1.5em">
             <Img src="complete.svg" />
           </Box>
         ) : null}
       </Flex>
-    </Td>
-    <Td borderBottom="none">
-      <Flex justifyContent="center">
+      <Flex minW="104px" justify="center">
         {obj.inProgress ? (
-          <Box h="32px" width="32px">
+          <Box h="1.5em" width="1.5em">
             <Img src="half.svg" />
           </Box>
         ) : null}
       </Flex>
-    </Td>
-    <Td borderBottom="none">
-      <Flex justifyContent="center">
+      <Flex minW="114px" justify="center">
         {obj.futurePlans ? (
-          <Box h="32px" width="32px">
+          <Box h="1.5em" width="1.5em">
             <Img src="empty.svg" />
           </Box>
         ) : null}
       </Flex>
-    </Td>
-  </Tr>
+    </HStack>
+  </Flex>
 ));
 
 export const DesktopView = () => (
-  <TableContainer>
-    <Table
-      variant="striped"
-      colorScheme="brand"
-      textAlign="center"
-      px={{ base: ".25em", md: "2em" }}
+  <VStack>
+    <HStack
+      w="100%"
+      justify="flex-end"
+      spacing={10}
+      borderBottom="0.5px solid #231F1F"
+      pr=".6em"
     >
-      <Thead>
-        <Tr display={{ base: "none", md: "table-row" }}>
-          <Th></Th>
-          <Th color="black">
-            <Flex
-              justifyContent="center"
-              fontFamily="Neue Montreal"
-              fontWeight={400}
-            >
-              Completed
-            </Flex>
-          </Th>
-          <Th color="black">
-            <Flex
-              justifyContent="center"
-              fontFamily="Neue Montreal"
-              fontWeight={400}
-            >
-              In Progress
-            </Flex>
-          </Th>
-          <Th color="black" fontFamily="Neue Montreal" fontWeight={400}>
-            <Flex justifyContent="center">Future Plans</Flex>
-          </Th>
-        </Tr>
-      </Thead>
-      <Tbody>{Objectives}</Tbody>
-    </Table>
-  </TableContainer>
+      <TableHeading title="Completed" />
+      <TableHeading title="In Progress" />
+      <TableHeading title="Future Plans" />
+    </HStack>
+    {Objectives}
+  </VStack>
 );

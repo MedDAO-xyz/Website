@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink" viewBox="0 0 432 432">
-    <defs>
-        <style>.cls-1{fill:none;}.cls-2{fill:#ff003f;}.cls-3{clip-path:url(#clip-path);}</style>
-        <clipPath id="clip-path">
-            <rect class="cls-1" x="24.93" y="151.8" width="254.9" height="127.25" transform="translate(367.8 63.05) rotate(90)"/>
-        </clipPath>
-    </defs>
-    <path class="cls-2" d="M269.52,345.22h-107l-75.7-75.7v-107l75.7-75.7h107l75.7,75.7v107ZM167.24,333.73h97.53l69-69V167.24l-69-69H167.24l-69,69v97.52Z"/>
-    <g class="cls-3">
-        <polygon class="cls-2" points="340.06 267.62 340.06 165.33 267.73 93 165.44 93 93.11 165.33 93.11 267.62 165.44 339.95 267.73 339.95 340.06 267.62"/>
-        <path class="cls-2" d="M270.11,345.69h-107L87.37,270V163l75.69-75.69H270.11L345.8,163V270ZM167.82,334.2h97.53l69-69V167.71l-69-69H167.82l-69,69v97.53Z"/>
-    </g>
-</svg>
+<svg height="100%" width="auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="86.8 86.8 259 258.92">     <defs>         <style>.cls-1{fill:none;}.cls-2{fill:#ff003f;}.cls-3{clip-path:url(#clip-path);}</style>         <clipPath id="clip-path">             <rect class="cls-1" x="24.93" y="151.8" width="254.9" height="127.25" transform="translate(367.8 63.05) rotate(90)"></rect>         </clipPath>     </defs>     <path class="cls-2" d="M269.52,345.22h-107l-75.7-75.7v-107l75.7-75.7h107l75.7,75.7v107ZM167.24,333.73h97.53l69-69V167.24l-69-69H167.24l-69,69v97.52Z"></path>     <g class="cls-3">         <polygon class="cls-2" points="340.06 267.62 340.06 165.33 267.73 93 165.44 93 93.11 165.33 93.11 267.62 165.44 339.95 267.73 339.95 340.06 267.62"></polygon>         <path class="cls-2" d="M270.11,345.69h-107L87.37,270V163l75.69-75.69H270.11L345.8,163V270ZM167.82,334.2h97.53l69-69V167.71l-69-69H167.82l-69,69v97.53Z"></path>     </g> </svg>

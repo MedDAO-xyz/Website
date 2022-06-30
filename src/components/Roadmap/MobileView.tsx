@@ -32,27 +32,27 @@ export const MobileView = () => (
         <Flex align="center" justify="flex-start">
           {obj.objective}
         </Flex>
-        <HStack>
+        <HStack pr="0.6em">
           {obj.completed ? (
-            <Box h="28px" width="28px">
-              <Img src="complete.svg" />
+            <Box h="1em" width="1em">
+              <Img h="100%" src="complete.svg" />
             </Box>
           ) : (
-            <Spacer maxW="34px" minW="34px" />
+            <Spacer maxW="1em" minW="1em" />
           )}
           {obj.inProgress ? (
-            <Box h="28px" width="28px">
+            <Box h="1em" width="1em">
               <Img src="half.svg" />
             </Box>
           ) : (
-            <Spacer maxW="30px" minW="30px" />
+            <Spacer maxW="1em" minW="1em" />
           )}
           {obj.futurePlans ? (
-            <Box h="28px" width="28px">
+            <Box h="1em" width="1em">
               <Img src="empty.svg" />
             </Box>
           ) : (
-            <Spacer maxW="30px" minW="30px" />
+            <Spacer maxW="1em" minW="1em" />
           )}
         </HStack>
       </Flex>
