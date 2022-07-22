@@ -4,11 +4,16 @@ Website for the MedDAO
 
 ### Installation
 
+1) clone the repo
+2) cd into the project
+3) run yarn command below to install dependencies 
+
 ```
 $ yarn
 ```
 
 ### Local Development
+run the command below to start the dev server
 
 ```
 $ yarn dev
