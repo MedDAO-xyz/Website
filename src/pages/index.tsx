@@ -7,7 +7,6 @@ import Subscribe from "../components/Subscribe";
 import What from "../components/What";
 import { WhyMedDAO } from "../components/WhyMedDAO";
 import HealthThree from "../components/HealthThree";
-import Test from "../global/Navbar/Test";
 
 const Home: NextPage = () => {
   return (
