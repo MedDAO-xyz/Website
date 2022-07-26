@@ -10,9 +10,9 @@ const PannelFour = () => {
         requirements. Providers will be credentialed using a 3rd party provider,
         once the provider has been approved a non-transferrable NFT will be
         minted to their wallet enabling their entry into the proper subDAO.
-        Please click&nbsp;
+        Please click
         <Link href="https://docs.meddao.xyz/" color="#FF003F">
-          here
+         here
         </Link>{" "}
         for more information,
       </Text>
