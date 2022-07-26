@@ -16,9 +16,9 @@ const PannelEight = () => {
         <br />
         <br />
         If you&apos;re interested in learning more you can find the core MedDAO
-        documents on our Gitbook linked &nbsp;
+        documents on our GitBook linked&nbsp;
         <Link href="https://docs.meddao.xyz/" color="#FF003F">
-          here.
+        here.
         </Link>{" "}
         We&apos;ve also linked to several of our favorite articles about DAOs,
         Web3 and healthcare.
