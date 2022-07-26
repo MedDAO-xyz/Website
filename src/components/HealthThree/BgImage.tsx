@@ -70,6 +70,7 @@ export const BgImage = () => (
     <Image
       pos="absolute"
       src="./AngleBackground.png"
+      alt="background image"
       h="100%"
       w="100%"
       objectFit="cover"

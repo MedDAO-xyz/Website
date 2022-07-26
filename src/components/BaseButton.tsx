@@ -9,7 +9,7 @@ type BaseButtonProps = {
 };
 
 export const BaseButton = ({ text, href, children }: BaseButtonProps) => (
-  <NextLink href={href}>
+  <NextLink href={href} passHref>
     <Button
       bg="rgb(255, 0, 63)"
       minW="9em"
