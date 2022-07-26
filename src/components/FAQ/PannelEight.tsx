@@ -16,7 +16,7 @@ const PannelEight = () => {
         <br />
         <br />
         If you&apos;re interested in learning more you can find the core MedDAO
-        documents on our GitBook linked &nbsp;
+        documents on our GitBook linked&nbsp;
         <Link href="https://docs.meddao.xyz/" color="#FF003F">
         here.
         </Link>{" "}
