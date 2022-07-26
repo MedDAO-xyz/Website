@@ -10,11 +10,11 @@ export const faq: qa[] = [
   {
     id: 1,
     q: "What is MedDAO?",
-    a: `MedDAO provides a platform on which healthcare providers,  patients and other industry stakeholders can collaborate to distribute medical knowledge on a global scale.
+    a: `MedDAO provides a platform on which healthcare providers, patients and other industry stakeholders can collaborate to distribute medical knowledge on a global scale.
     
 We do that by leveraging a highly-engaged community made up of public health stakeholders who are co-owners of our organization. 
 
-We do it because we believe that access to medical knowledge and expertise should not be artificially constrained by geography.`,
+We do it because we believe that access to medical knowledge and expertise should not be constrained by geography.`,
   },
   {
     id: 2,
