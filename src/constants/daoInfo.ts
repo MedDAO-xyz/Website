@@ -26,9 +26,11 @@ We do it because we believe that access to medical knowledge and expertise shoul
   {
     id: 3,
     q: "Who are some of MedDAO’s stakeholders?",
-    a: `· Healthcare professionals
-· Patients
+    a: `Any individual is welcome to join MedDAO.  We aim to create a globally connected community dedicated to sharing all medical knowledge and experience.
+    
+· Healthcare professionals
 · Medical industry
+· Patients
 · Academic institutions/researchers
 · Caused-based organizations
 · Medicolegal experts
@@ -38,7 +40,7 @@ We do it because we believe that access to medical knowledge and expertise shoul
   {
     id: 4,
     q: "How can you verify provider credentials?",
-    a: `All members of the community must go through a KYC/Proof of Humanity check.  Additionally, subDAOs may have additional credentialing requirements.  Providers will be credentialed using a 3rd party provider, once the provider has been approved a non-transferrable NFT will be minted to their wallet enabling their entry into the proper subDAO. Please click here for more information `,
+    a: `All members of the community must go through a KYC/Proof of Humanity check.  Additionally, subDAOs may have additional credentialing requirements.  Healthcare professionals will be credentialed using a 3rd party provider; once a healthcare professional has been approved a non-transferrable NFT will be minted to their wallet, enabling their entry into the proper subDAO. Please click here for more information.`,
   },
   {
     id: 5,
