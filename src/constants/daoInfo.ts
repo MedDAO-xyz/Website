@@ -103,7 +103,7 @@ export const roadmap: objective[] = [
   },
   {
     id: 4,
-    objective: "Distribute MedDAO Token",
+    objective: "Develop MedDAO Token",
     completed: false,
     inProgress: true,
     futurePlans: false,
