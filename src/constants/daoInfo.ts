@@ -19,9 +19,9 @@ We do it because we believe that access to medical knowledge and expertise shoul
   {
     id: 2,
     q: "What isn’t MedDAO?",
-    a: `· It’s not telehealth
+    a: `· It’s not telehealth -- while patient-facing use cases are on MedDAO's long-term roadmap, it is not currently equipped to handle patient-facing interactions or personal health information
 · It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies
-· It’s not shilling NFTs`,
+· It’s not shilling NFTs or a speculative, profit-making opportunity`,
   },
   {
     id: 3,
