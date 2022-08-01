@@ -26,7 +26,7 @@ We do it because we believe that access to medical knowledge and expertise shoul
   {
     id: 3,
     q: "Who are some of MedDAO’s stakeholders?",
-    a: `Any individual is welcome to join MedDAO.  We aim to create a globally connected community dedicated to sharing all medical knowledge and experience.
+    a: `Any individual is welcome to join MedDAO.  We aim to create a globally connected community dedicated to sharing all medical knowledge and experience.  We think stakeholders will include:
     
 · Healthcare professionals
 · Medical industry
