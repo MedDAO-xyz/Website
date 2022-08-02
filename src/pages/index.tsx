@@ -4,7 +4,7 @@ import FAQ from "../components/FAQ";
 import Hero from "../components/Hero";
 import Roadmap from "../components/Roadmap";
 import Subscribe from "../components/Subscribe";
-import What from "../components/What";
+import What from "../components/What/What";
 import { WhyMedDAO } from "../components/WhyMedDAO";
 import HealthThree from "../components/HealthThree";
 
