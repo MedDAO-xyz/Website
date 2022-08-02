@@ -31,7 +31,7 @@ const WhatVideo = () => {
             bg="#ffffff"
             grow={1}
             maxH="400px"
-            // height="100%"
+            height="100%"
             direction="row"
             overflow="hidden"
             position="relative"
