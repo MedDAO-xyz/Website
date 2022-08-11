@@ -26,7 +26,7 @@ const BulletPoints = () => {
             fontSize={{ base: "1em", md: "1.5em" }}
             fontFamily="Neue Montreal"
           >
-            Knowledge and data owned by members of the DAO rather than companies
+            Knowledge and data owned by members of the DAO rather than centralized entities
           </Text>
         </HStack>
       </Slide>
