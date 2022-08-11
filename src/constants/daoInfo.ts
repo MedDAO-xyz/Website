@@ -21,7 +21,7 @@ We do it because we believe that access to medical knowledge and expertise shoul
     q: "What isn’t MedDAO?",
     a: `· It’s not telehealth -- while patient-facing use cases are on MedDAO's long-term roadmap, it is not currently equipped to handle patient-facing interactions or personal health information
 · It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies
-· It’s not shilling NFTs or a speculative, profit-making opportunity`,
+· It’s not shilling NFTs or a speculative, profit-making opportunity. Instead, MedDAO is seeking to build a platform that provides long-term value (be it philanthropic, economic, educational, etc.) to its members and users. MedDAO is, first and foremost, about coordinating public good. If you’re looking to get rich quick, you’re in the wrong place.`,
   },
   {
     id: 3,
@@ -45,17 +45,17 @@ We do it because we believe that access to medical knowledge and expertise shoul
   {
     id: 5,
     q: "I am a patient, why would I join?",
-    a: `Any individual is welcome to join MedDAO.  We aim to create a globally connected community dedicated to sharing all medical knowledge and experience.  As a patient (or caregiver), you possess a  unique perspective and we believe there is value in creating a platform for you to share your experiential knowledge with others who may be facing a similar medical problem.   In this way,  MedDAO seeks to create a regenerative economy around medical knowledge and experience.`,
+    a: `As a patient (or caregiver), you possess a  unique perspective and we believe there is value in creating a platform for you to share your experiential knowledge with others who may be facing a similar medical problem.  In this way,  MedDAO seeks to create a regenerative platform around medical knowledge and experience.`,
   },
   {
     id: 6,
     q: "I am not a patient, why would I join?",
-    a: `MedDAO seeks to collaborate and partner with a broad range of stakeholders in the healthcare space.  We believe creating global access to a large community of healthcare providers and other medical stakeholders organized by medical specialties presents novel opportunities for researchers, charitable organizations and med-tech,  pharmaceutical, and health-insurance companies alike.  In this way MedDAO seeks to become an ImpactDAO, creating positive externalities for  the world.`,
+    a: `MedDAO seeks to collaborate and partner with a broad range of stakeholders in the healthcare space.  We believe creating global access to a large community of healthcare providers organized by medical specialties and other medical stakeholders presents novel opportunities for researchers, charitable organizations, pharmaceutical and health insurance companies alike.  In this way, MedDAO seeks to become an ImpactDAO, creating positive externalities for the world.`,
   },
   {
     id: 7,
     q: "What is a knowledge request?",
-    a: `Knowledge Requests (KRs) are one of the proposed use cases of MedDAO and its members. A KR begins with a knowledge requestor asking a question to a subDAO (or multiple subDAOs), the subDAO members  then go through a request fufillment process and, after internal quality check processes, the return the completed KR. At genesis, MedDAO will support Industry Knowledge Requests. In the future, we plan to expand Knowledge Request use cases to include patients, legal, government, research and other areas submitted by subDAOs.`,
+    a: `Knowledge Requests (KRs) are one of the proposed use cases and primitives of the MedDAO protocol. A KR begins with a knowledge requestor submitting a question/query/or proposal to a subDAO (or multiple subDAOs); the subDAO members then go through a request fulfillment process and, after internal quality check processes, return the completed KR. MedDAO’s minimum viable product will support Industry Knowledge Requests. In the future, we plan to expand Knowledge Request use cases to include legal, government, research and other areas contemplated  by subDAOs.`,
   },
   {
     id: 8,
