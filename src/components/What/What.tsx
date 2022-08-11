@@ -11,7 +11,6 @@ const What = () => {
       <Flex
         as="section"
         w="100%"
-        // px={{ base: "none", md: "1em" }}
         direction={{ base: "column", md: "row" }}
         justifyContent="center"
         alignItems="center"
@@ -25,8 +24,8 @@ const What = () => {
           w={{ base: "80%", md: "40%" }}
           minW="320px"
           minH="100px"
-          px="10px"
           color="black"
+          px="10px"
           bg="white"
         >
           <Heading
@@ -60,12 +59,12 @@ const What = () => {
           justify="center"
           className="rightContainer"
           w={{ base: "100%", md: "60%" }}
-          minH={{ base: "350px", sm: "450px" }}
+          minH={{ base: "200px", md: "420px" }}
           minW="320px"
           mt="1em"
           backgroundImage="./waveMesh.svg"
           py="1em"
-          px={{ base: "0px", md: "2em" }}
+          px={{ base: "none", sm: "2em" }}
         >
           <WhatVideo />
         </Flex>
