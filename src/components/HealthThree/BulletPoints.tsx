@@ -51,7 +51,7 @@ const BulletPoints = () => {
             fontSize={{ base: "1em", md: "1.5em" }}
             fontFamily="Neue Montreal"
           >
-            Collaborative participation of our community including healthcare
+            Collaborative participation of our community, including healthcare
             providers, patients, developers and industry partners
           </Text>
         </HStack>
