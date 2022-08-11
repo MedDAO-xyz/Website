@@ -19,8 +19,10 @@ We do it because we believe that access to medical knowledge and expertise shoul
   {
     id: 2,
     q: "What isn’t MedDAO?",
-    a: `· It’s not telehealth -- while patient-facing use cases are on MedDAO's long-term roadmap, it is not currently equipped to handle patient-facing interactions or personal health information
-· It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies
+    a: `· It’s not telehealth -- while patient-facing use cases are on MedDAO's long-term roadmap, it is not currently equipped to handle patient-facing interactions or personal health information.
+
+· It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies.
+
 · It’s not shilling NFTs or a speculative, profit-making opportunity. Instead, MedDAO is seeking to build a platform that provides long-term value (be it philanthropic, economic, educational, etc.) to its members and users. MedDAO is, first and foremost, about coordinating public good. If you’re looking to get rich quick, you’re in the wrong place.`,
   },
   {
