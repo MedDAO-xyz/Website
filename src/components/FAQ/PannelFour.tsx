@@ -13,6 +13,7 @@ const PannelFour = () => {
         will be minted to their wallet enabling their entry into the proper subDAO.
         We would like to work with the community to replicate such a process across other geographies.
         <br />
+        <br />
         Please click&nbsp;
         <Link href="https://docs.meddao.xyz/" color="#FF003F">
         here
