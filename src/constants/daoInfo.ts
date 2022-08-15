@@ -52,7 +52,7 @@ It is currently anticipated that MedDAO will be set up as a Marshall Islands non
   {
     id: 4,
     q: "How can you verify provider credentials?",
-    a: `All members of the community must go through a KYC/Proof of Humanity check.  Additionally, subDAOs may have additional credentialing requirements.  Healthcare professionals will be credentialed using a 3rd party provider; once a healthcare professional has been approved a non-transferrable NFT will be minted to their wallet, enabling their entry into the proper subDAO. Please click here for more information.`,
+    a: ``,
   },
   {
     id: 5,
@@ -72,13 +72,7 @@ It is currently anticipated that MedDAO will be set up as a Marshall Islands non
   {
     id: 8,
     q: "How do I get involved?",
-    a: `So we've piqued your interest and now you want to get involved. Maybe you're a healthcare provider and want to truly be part of a vision to utilize blockchain technology and shared ownership to better share and deliver healthcare knowledge. Maybe you are a patient or advocate who wants to take on a more of an active role in how medical expertise is shared. Or perhaps, you are just interested in learning more about or contributing to the conversation on Web3, blockchain and DAOs as they pertain to healthcare.
-    
-If you're interested in learning more you can find the core MedDAO documents on our GitBook linked here. We've also linked to several of our favorite articles about DAOs, Web3 and healthcare.
-
-We encourage you to sign up for our email list and follow our socials to receive updates regarding progress of MedDAO and, community events.
-
-If you've made it this far we would recommend you sign up for our Discord server. This is the primary platform for engagement with MedDAO. Here you will become part of the conversation and a member of the team actually making this vision a reality. Detailed instructions and walkthrough are provided on the Discord server. Please reach out to our Community Management Team with technical difficulties.`,
+    a: ``,
   },
 ];
 
