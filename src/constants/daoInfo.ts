@@ -18,7 +18,7 @@ We do it because we believe that access to medical knowledge and expertise shoul
 
 MedDAO was founded and funded by DecentraMed, LLC, a Wyoming LLC. The owners of DecentraMed are:
 
-· Drs. R. Morgan Stuart and Brad Zacharia, practicing neurosurgeons that trained together at the Neurological Institute of New York at Columbia University Medical Center.
+· <Text fontWeight="bold">Drs. R. Morgan Stuart and Brad Zacharia</font>, practicing neurosurgeons that trained together at the Neurological Institute of New York at Columbia University Medical Center.
 
 · George Cecil and Ryan Zacharia, who invest in blockchain and web3 infrastructure for regulated financial institutions.
 
