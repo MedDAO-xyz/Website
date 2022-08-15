@@ -10,26 +10,18 @@ export const faq: qa[] = [
   {
     id: 1,
     q: "What is MedDAO?",
-    a: `MedDAO will provide a platform for healthcare providers, patients and other industry stakeholders to collaborate and distribute medical knowledge on a global scale.
-    
-We do that by leveraging a highly-engaged community made up of public health stakeholders who are co-owners of our organization. 
-
-We do it because we believe that access to medical knowledge and expertise should not be constrained by geography or other artificial barriers.
+    a: `MedDAO will provide a platform for healthcare providers, patients and other industry stakeholders to collaborate and distribute medical knowledge on a global scale. We do that by leveraging a highly-engaged community made up of public health stakeholders who are co-owners of our organization. We do it because we believe that access to medical knowledge and expertise should not be constrained by geography or other artificial barriers.
 
 MedDAO was founded and funded by DecentraMed, LLC, a Wyoming LLC. The owners of DecentraMed are:
 
-· ``<Text fontWeight="bold">``Drs. R. Morgan Stuart and Brad Zacharia``</font>``, practicing neurosurgeons that trained together at the Neurological Institute of New York at Columbia University Medical Center.
-
+· Drs. R. Morgan Stuart and Brad Zacharia, practicing neurosurgeons that trained together at the Neurological Institute of New York at Columbia University Medical Center.
 · George Cecil and Ryan Zacharia, who invest in blockchain and web3 infrastructure for regulated financial institutions.
 
 Other core team members and advisors include:
 
 · Dr. S.K. Steven Houston III is a vitreoretinal surgeon who trained at Wills Eye Hospital and Bascom Palmer Eye Institute. He is a web3 enthusiast, building at the cross-section of medicine, cryptocurrencies, NFTs, and DAOs.
-
 · Katherine Onk, a data analytics leader with experience in advertising, fundraising, social platforms and education. An advisor for clinical research after navigating patient advocacy for parents with neurological conditions. Web3 enthusiast with experience in cryptocurrencies, digital assets and blockchain data curation.
-
 · Tracheopteryx, co-founder of Coordinape and yearn OG.
-
 · Members of the LexDAO & Bankless communities.
 
 It is currently anticipated that MedDAO will be set up as a Marshall Islands nonprofit DAO.`,
