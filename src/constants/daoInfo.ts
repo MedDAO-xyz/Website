@@ -38,16 +38,16 @@ It is currently anticipated that MedDAO will be set up as a Marshall Islands non
   {
     id: 3,
     q: "Who are some of MedDAO’s stakeholders?",
-    a: `Any individual is welcome to join MedDAO.  We aim to create a globally connected community dedicated to sharing all medical knowledge and experience.  We think stakeholders will include:
+    a: `Any individual is welcome to join MedDAO.  We aim to create a globally connected community dedicated to sharing all medical knowledge and experience.
     
-· Healthcare professionals
-· Medical industry
-· Patients
-· Academic institutions/researchers
-· Caused-based organizations
-· Medicolegal experts
-· Web3 natives
-· Regulators`,
+• Healthcare professionals - for those that have dedicated their lives to acquiring and applying their medical knowledge, MedDAO hopes to build a platform to allow these professionals to expand their medical networks and more effectively distribute their knowledge.
+• Patients - while patient-facing use cases are contemplated, they will not be MedDAO's initial focus due to the complex legal and privacy considerations. However, patients also possess a wealth of medical and experiential knowledge and foresee use cases that tap into this vast, and previously underutilized, knowledge base.
+• Medical industry - MedDAO sees great potential to work with the medical industry as partners, working together to expand connectivity, increase efficiency and transparency and further the collective mission of advancing healthcare.
+• Academic institutions/researchers - MedDAO endeavors to help institutions and medical researchers discover new resources and find new methods or collaboration.
+• Caused-based organizations - organizations have traditionally been forced to rely upon fully centralized systems for their community engagement and platform development, we hope to enable these organizations to more easily communicate with those they’re trying to help and to facilitate the creation of new, completely decentralized organizations.
+• Medicolegal experts - we hope medicolegal experts will guide the DAO, defining the permissible activities and further exploring the boundaries of Healthcare 3.0.
+• Web3 natives - the web3 community plays a crucial role in our success as they rally around the mission of MedDAO to aid in the architecture built-out and continued growth of the DAO, protocol, and Healthcare 3.0.
+• Regulators - regulators play a crucial role in facilitating the legal and ethical practice of medicine globally. MedDAO expects to engage with global regulators on an ongoing basis and welcomes their participation in the DAO to further the goals of Healthcare 3.0.`,
   },
   {
     id: 4,
