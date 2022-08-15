@@ -33,10 +33,8 @@ It is currently anticipated that MedDAO will be set up as a Marshall Islands non
     id: 2,
     q: "What isn’t MedDAO?",
     a: `• It’s <b>not telehealth</b> -- while patient-facing use cases are on MedDAO's long-term roadmap, it is not currently equipped to handle patient-facing interactions or personal health information.
-
 • It’s <b>not attempting to displace</b> healthcare professionals, eliminate doctors' offices, hospitals or insurances companies.
-
-• It’s <b>not shilling NFTs or a speculative, profit-making opportunity.</b> Instead, MedDAO is seeking to build a platform that provides long-term value (be it philanthropic, economic, educational, etc.) to its members and users. MedDAO is, first and foremost, about coordinating public good. If you’re looking to get rich quick, you’re in the wrong place.`,
+• It’s <b>not shilling NFTs or a speculative, profit-making opportunity</b>. Instead, MedDAO is seeking to build a platform that provides long-term value (be it philanthropic, economic, educational, etc.) to its members and users. MedDAO is, first and foremost, about coordinating public good. If you’re looking to get rich quick, you’re in the wrong place.`,
   },
   {
     id: 3,
@@ -57,8 +55,7 @@ It is currently anticipated that MedDAO will be set up as a Marshall Islands non
     q: "How can you verify provider credentials?",
     a: `All members of the community must go through a Proof of Humanity check.  Additionally, subDAOs may have their own credentialing requirements. U.S.-licensed healthcare providers’ credentials will be checked against the American Board of Medical Specialties database, and once the provider has been approved, a non-transferrable NFT (with an expiration date that requires future reverification) will be minted to their wallet enabling their entry into the proper subDAO.  We would like to work with the community to replicate such a process across other geographies.
     
-Please click <a href="https://docs.meddao.xyz/" style="color: #FF003F">here</a> for more information
-    `,
+Please click <a href="https://docs.meddao.xyz/" style="color: #FF003F">here</a> for more information.`,
   },
   {
     id: 5,
@@ -78,7 +75,7 @@ Please click <a href="https://docs.meddao.xyz/" style="color: #FF003F">here</a> 
   {
     id: 8,
     q: "How do I get involved?",
-    a: `If we’ve piqued your interest, we encourage you to learn more by reading our <a href="https://docs.meddao.xyz/" style="color: #FF003F">documentation</a>, subscribing to our newsletter (below) and joining our <a href="https://discord.com/invite/qwWATcETDq" style="color: #FF003F">Discord server</a> (our initial primary engagement platform). `,
+    a: `If we’ve piqued your interest, we encourage you to learn more by reading our <a href="https://docs.meddao.xyz/" style="color: #FF003F">documentation</a>, subscribing to our newsletter (below) and joining our <a href="https://discord.com/invite/qwWATcETDq" style="color: #FF003F">Discord server</a> (our initial primary engagement platform).`,
   },
 ];
 
