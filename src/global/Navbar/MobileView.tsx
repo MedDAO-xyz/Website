@@ -49,6 +49,16 @@ export const MobileView = () => {
               Why MedDAO
             </Text>
           </Link>
+          <Link href="/#FAQ">
+            <Text
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize="1.2em"
+              fontWeight={500}
+            >
+              FAQ
+            </Text>
+          </Link>
           <Link href="https://docs.meddao.xyz/" target="_blank">
             <Text
               color="#5d5d5d"

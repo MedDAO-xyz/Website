@@ -7,29 +7,21 @@ import {
   Box,
   Flex,
   Heading,
-  Link,
   Text,
 } from "@chakra-ui/react";
 import React from "react";
 import { faq, qa } from "../../constants/daoInfo";
 import FullBleed from "../../global/Layout/FullBleed";
-import PannelEight from "./PannelEight";
-import PannelFour from "./PannelFour";
+import parse from "html-react-parser";
 
 const handleSpecialFAQ = (obj: qa) => {
-  if (obj.id == 4) {
-    return <PannelFour />;
-  } else if (obj.id == 8) {
-    return <PannelEight />;
-  } else {
-    return (
-      <AccordionPanel mt=".5em" bg="#FFF9FB" pb={4}>
-        <Text fontFamily="Neue Montreal" fontWeight="400" whiteSpace="pre-wrap">
-          {obj.a}
-        </Text>
-      </AccordionPanel>
-    );
-  }
+  return (
+    <AccordionPanel mt=".5em" bg="#FFF9FB" pb={4}>
+      <Text fontFamily="Neue Montreal" fontWeight="400" whiteSpace="pre-wrap">
+        {parse(obj.a)}
+      </Text>
+    </AccordionPanel>
+  );
 };
 
 const faqAccordion = faq.map((qa) => (
@@ -58,6 +50,8 @@ const FAQ = () => {
   return (
     <FullBleed>
       <Flex
+        id="FAQ"
+        scrollMarginTop="3em"
         bg="#fff4f7"
         w="100%"
         direction="column"
