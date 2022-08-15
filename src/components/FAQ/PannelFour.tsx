@@ -12,7 +12,7 @@ const PannelFour = () => {
         a non-transferrable NFT (with an expiration date that requires future reverification)
         will be minted to their wallet enabling their entry into the proper subDAO.
         We would like to work with the community to replicate such a process across other geographies.
-        
+        <br />
         Please click&nbsp;
         <Link href="https://docs.meddao.xyz/" color="#FF003F">
         here
