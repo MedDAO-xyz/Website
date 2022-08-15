@@ -11,7 +11,7 @@ export const MobileView = () => {
         position="absolute"
         top={0}
         w="100%"
-        h="70vh"
+        h="75vh"
         direction="column"
         align="center"
         bg="black"
@@ -38,7 +38,7 @@ export const MobileView = () => {
         >
           X
         </Button>
-        <VStack pt="2em" spacing="2em" align="center">
+        <VStack py="2em" spacing="2em" align="center">
           <Link href="/#why">
             <Text
               color="#5d5d5d"
@@ -47,6 +47,16 @@ export const MobileView = () => {
               fontWeight={500}
             >
               Why MedDAO
+            </Text>
+          </Link>
+          <Link href="/#roadmap">
+            <Text
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize="1.2em"
+              fontWeight={500}
+            >
+              Roadmap
             </Text>
           </Link>
           <Link href="/#FAQ">
@@ -67,16 +77,6 @@ export const MobileView = () => {
               fontWeight={500}
             >
               Documents
-            </Text>
-          </Link>
-          <Link href="/#roadmap">
-            <Text
-              color="#5d5d5d"
-              fontFamily="Neue Montreal"
-              fontSize="1.2em"
-              fontWeight={500}
-            >
-              Roadmap
             </Text>
           </Link>
           <BaseButton href="https://discord.gg/qwWATcETDq" text="JOIN US" />

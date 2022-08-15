@@ -51,7 +51,7 @@ const FAQ = () => {
     <FullBleed>
       <Flex
         id="FAQ"
-        scrollMarginTop="3em"
+        scrollMarginTop="2.75em"
         bg="#fff4f7"
         w="100%"
         direction="column"

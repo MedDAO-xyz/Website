@@ -39,6 +39,16 @@ export const DesktopView = () => {
               Why MedDAO
             </Text>
           </Link>
+          <Link href="/#roadmap">
+            <Text
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize={{ sm: "1em", md: "1.2em" }}
+              fontWeight={500}
+            >
+              Roadmap
+            </Text>
+          </Link>
           <Link href="/#FAQ">
             <Text
               color="#5d5d5d"
@@ -57,16 +67,6 @@ export const DesktopView = () => {
               fontWeight={500}
             >
               Documents
-            </Text>
-          </Link>
-          <Link href="/#roadmap">
-            <Text
-              color="#5d5d5d"
-              fontFamily="Neue Montreal"
-              fontSize={{ sm: "1em", md: "1.2em" }}
-              fontWeight={500}
-            >
-              Roadmap
             </Text>
           </Link>
           <BaseButton href="https://discord.gg/qwWATcETDq" text="JOIN US" />
