@@ -5,7 +5,7 @@
   {
     "title": "Mission",
     "paras": [
-      "MedDAO is a token based community and protocol with the primary mission of distributing medical knowledge without boundaries, barriers of intermediaries. Our goal is to drive adoption and awareness of decentralized healthcare, or healthcare 3.0."
+      "MedDAO is creating a decentralized community  and protocol with the primary mission of distributing medical knowledge without boundaries, barriers or intermediaries. Our goal is to drive adoption and awareness of decentralized healthcare, or Healthcare 3.0."
     ],
     "link": {
       "href": "/"
@@ -24,7 +24,7 @@
   {
     "title": "Connectivity & Collaboration",
     "paras": [
-      "DAOs are a model of human coordination without rigid leadership that facilitates the emergence of valuable ideas through collaboration. Together, we have the power to distribute medical knowledge by an order of magnitude."
+      "DAOs are a model of human coordination that facilitate the emergence of valuable ideas through collaboration, aligned incentives and transparency. Together, we have the power to distribute medical knowledge by orders of magnitude greater than the current paradigm."
     ],
     "link": {
       "href": "/"
@@ -33,7 +33,7 @@
   {
     "title": "Composability",
     "paras": [
-      "MedDAO endeavors to provide the abstractions, primitives and tooling for others to potentially extend it with many different implementations and applications"
+      "MedDAO endeavors to provide the abstractions, primitives and tooling for others to potentially extend it with many different implementations and applications.  With this modular design in mind, we hope MedDAO can serve as a baseplate for other medical minds looking to build in Healthcare 3.0."
     ],
     "link": {
       "href": "/"
