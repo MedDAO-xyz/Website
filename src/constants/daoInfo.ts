@@ -14,26 +14,26 @@ export const faq: qa[] = [
 
 MedDAO was founded and funded by DecentraMed, LLC, a Wyoming LLC. The owners of DecentraMed are:
 
-· Drs. R. Morgan Stuart and Brad Zacharia, practicing neurosurgeons that trained together at the Neurological Institute of New York at Columbia University Medical Center.
-· George Cecil and Ryan Zacharia, who invest in blockchain and web3 infrastructure for regulated financial institutions.
+• Drs. R. Morgan Stuart and Brad Zacharia, practicing neurosurgeons that trained together at the Neurological Institute of New York at Columbia University Medical Center.
+• George Cecil and Ryan Zacharia, who invest in blockchain and web3 infrastructure for regulated financial institutions.
 
 Other core team members and advisors include:
 
-· Dr. S.K. Steven Houston III is a vitreoretinal surgeon who trained at Wills Eye Hospital and Bascom Palmer Eye Institute. He is a web3 enthusiast, building at the cross-section of medicine, cryptocurrencies, NFTs, and DAOs.
-· Katherine Onk, a data analytics leader with experience in advertising, fundraising, social platforms and education. An advisor for clinical research after navigating patient advocacy for parents with neurological conditions. Web3 enthusiast with experience in cryptocurrencies, digital assets and blockchain data curation.
-· Tracheopteryx, co-founder of Coordinape and yearn OG.
-· Members of the LexDAO & Bankless communities.
+• Dr. S.K. Steven Houston III is a vitreoretinal surgeon who trained at Wills Eye Hospital and Bascom Palmer Eye Institute. He is a web3 enthusiast, building at the cross-section of medicine, cryptocurrencies, NFTs, and DAOs.
+• Katherine Onk, a data analytics leader with experience in advertising, fundraising, social platforms and education. An advisor for clinical research after navigating patient advocacy for parents with neurological conditions. Web3 enthusiast with experience in cryptocurrencies, digital assets and blockchain data curation.
+• Tracheopteryx, co-founder of Coordinape and yearn OG.
+• Members of the LexDAO & Bankless communities.
 
 It is currently anticipated that MedDAO will be set up as a Marshall Islands nonprofit DAO.`,
   },
   {
     id: 2,
     q: "What isn’t MedDAO?",
-    a: `· It’s not telehealth -- while patient-facing use cases are on MedDAO's long-term roadmap, it is not currently equipped to handle patient-facing interactions or personal health information.
+    a: `• It’s not telehealth -- while patient-facing use cases are on MedDAO's long-term roadmap, it is not currently equipped to handle patient-facing interactions or personal health information.
 
-· It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies.
+• It’s not attempting to displace healthcare professionals, eliminate doctors' offices, hospitals or insurances companies.
 
-· It’s not shilling NFTs or a speculative, profit-making opportunity. Instead, MedDAO is seeking to build a platform that provides long-term value (be it philanthropic, economic, educational, etc.) to its members and users. MedDAO is, first and foremost, about coordinating public good. If you’re looking to get rich quick, you’re in the wrong place.`,
+• It’s not shilling NFTs or a speculative, profit-making opportunity. Instead, MedDAO is seeking to build a platform that provides long-term value (be it philanthropic, economic, educational, etc.) to its members and users. MedDAO is, first and foremost, about coordinating public good. If you’re looking to get rich quick, you’re in the wrong place.`,
   },
   {
     id: 3,
