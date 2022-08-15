@@ -69,7 +69,7 @@ Please click <a href="https://docs.meddao.xyz/" style="color: #FF003F">here</a> 
   },
   {
     id: 7,
-    q: "What is a knowledge request?",
+    q: "What is a Knowledge Request?",
     a: `<a href="hhttps://docs.meddao.xyz/dao-member-experience/use-cases/knowledge-request-use-case" style="color: #FF003F">Knowledge Requests (KRs)</a> are one of the proposed use cases and primitives of the MedDAO protocol. A KR begins with a knowledge requestor submitting a question/query/or proposal to a subDAO (or multiple subDAOs); the subDAO members then go through a request fulfillment process and, after internal quality check processes, return the completed KR. MedDAO’s minimum viable product will support Industry Knowledge Requests. In the future, we plan to expand Knowledge Request use cases to include legal, government, research and other areas contemplated  by subDAOs.`,
   },
   {
