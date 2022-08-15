@@ -10,8 +10,8 @@ const PannelEight = () => {
         documentation
         </Link>,{" "}subscribing to our newsletter (below) and joining our           
         {" "}<Link href="https://discord.com/invite/qwWATcETDq" color="#FF003F">
-        Discord server.
-        </Link>{" "}(our initial primary engagement platform).
+        Discord server
+        </Link>.{" "}(our initial primary engagement platform).
       </Text>
     </AccordionPanel>
   );
