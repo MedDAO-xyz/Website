@@ -15,7 +15,7 @@ export const faq: qa[] = [
     q: "What is MedDAO?",
     a: `MedDAO will provide a platform for healthcare providers, patients and other industry stakeholders to collaborate and distribute medical knowledge on a global scale. We do that by leveraging a highly-engaged community made up of public health stakeholders who are co-owners of our organization. We do it because we believe that access to medical knowledge and expertise should not be constrained by geography or other artificial barriers.
 
-MedDAO was founded Her and funded by DecentraMed, LLC, a Wyoming LLC. The owners of DecentraMed are:
+MedDAO was founded and funded by DecentraMed, LLC, a Wyoming LLC. The owners of DecentraMed are:
 
 • <b>Drs. R. Morgan Stuart</b> and <b>Brad Zacharia</b>, practicing neurosurgeons that trained together at the Neurological Institute of New York at Columbia University Medical Center.
 • <b>George Cecil</b> and <b>Ryan Zacharia</b>, who invest in blockchain and web3 infrastructure for regulated financial institutions.
