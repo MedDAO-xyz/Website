@@ -75,7 +75,7 @@ Please click <a href="https://docs.meddao.xyz/" style="color: #FF003F">here</a> 
   {
     id: 8,
     q: "How do I get involved?",
-    a: `If we’ve piqued your interest, we encourage you to learn more by reading our <a href="https://docs.meddao.xyz/" style="color: #FF003F">documentation</a>, subscribing to our newsletter (below) and joining our <a href="https://discord.com/invite/qwWATcETDq" style="color: #FF003F">Discord server</a> (our initial primary engagement platform).`,
+    a: `If we’ve piqued your interest, we encourage you to learn more by following our socials, reading our <a href="https://docs.meddao.xyz/" style="color: #FF003F">documentation</a>, subscribing to our newsletter (below) and joining our <a href="https://discord.com/invite/qwWATcETDq" style="color: #FF003F">Discord server</a> (our primary engagement platform).  Our Discord server is where you will become part of the conversation and a member of the team to making the vision of Healthcare 3.0 a reality.  Please <a href="mailto:help@meddao.xyz" style="color: #FF003F">reach out to us</a> if you have any questions, comments or issues.`,
   },
 ];
 
