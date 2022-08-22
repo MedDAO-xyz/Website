@@ -26,4 +26,4 @@ This command starts a local development server and opens up a browser window. Mo
 
 If you need to change the info in the Web3>Healthcare3, Roadmap, FAQ sections. Each section is controlled by an object in the src/constants/daoInfo.ts file. Find the appropriate object and edit the data as needed.
 
-This includes the FAQ and Roadmap settings. 
+This includes the FAQ and Roadmap settings.
