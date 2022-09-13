@@ -27,9 +27,7 @@ Other core team members and advisors include:
 • <b>Katherine Onk</b>, a data analytics leader with experience in advertising, fundraising, social platforms and education. An advisor for clinical research after navigating patient advocacy for parents with neurological conditions. Web3 enthusiast with experience in cryptocurrencies, digital assets and blockchain data curation.
 • <b>Elijah Spina Ph.D.</b>, a molecular biologist who's contributed to various DAOs focused on decentralized data ownership and scientific publishing. His experiences as a traditional biotech founder and web3 podcast marketer lend a broad entrepreneurial skill set to the team.
 • <b>Dr. Lukas Vogel</b> is a medical doctor from Germany with additional degrees in blockchain technology and biology. Web3 x healthcare enthusiast with over 10 years of experience in the cryptocurrency space.
-• Members of the LexDAO & Bankless communities.
-
-It is currently anticipated that MedDAO will be set up as a Marshall Islands nonprofit DAO.`,
+• Members of the LexDAO & Bankless communities.`,
   },
   {
     id: 2,
