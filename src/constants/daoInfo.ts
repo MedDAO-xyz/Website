@@ -29,7 +29,7 @@ Other core team members and advisors include:
 • <b>Dr. Lukas Vogel</b> is a medical doctor from Germany with additional degrees in blockchain technology and biology. Web3 x healthcare enthusiast with over 10 years of experience in the cryptocurrency space.
 • Members of the LexDAO & Bankless communities.
 
-MedDAO is a Delaware Unincorporated Nonprofit Association.  More details can be found <a href="https://app.kali.gg/daos/1/0xdd019415188f122ef294f5a17e4cef304c2af167" style="color: #FF003F">here</a>.`,
+MedDAO is a <a href="https://content.wrappr.wtf/ipfs/QmQUEYhsY3bsNJV62CMTMmLZ2Rk8erLBDQSKDLG13qhcAw" style="color: #FF003F">Trustless Unincorporated Nonprofit Association</a> under the Delaware Uniform Unincorporated Nonprofit Association Act.  You can view MedDAO's proposals, members and other information <a href="https://app.kali.gg/daos/1/0xdd019415188f122ef294f5a17e4cef304c2af167" style="color: #FF003F">here</a>.`,
   },
   {
     id: 2,
