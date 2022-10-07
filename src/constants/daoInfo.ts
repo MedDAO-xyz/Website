@@ -27,7 +27,9 @@ Other core team members and advisors include:
 • <b>Katherine Onk</b>, a data analytics leader with experience in advertising, fundraising, social platforms and education. An advisor for clinical research after navigating patient advocacy for parents with neurological conditions. Web3 enthusiast with experience in cryptocurrencies, digital assets and blockchain data curation.
 • <b>Elijah Spina Ph.D.</b>, a molecular biologist who's contributed to various DAOs focused on decentralized data ownership and scientific publishing. His experiences as a traditional biotech founder and web3 podcast marketer lend a broad entrepreneurial skill set to the team.
 • <b>Dr. Lukas Vogel</b> is a medical doctor from Germany with additional degrees in blockchain technology and biology. Web3 x healthcare enthusiast with over 10 years of experience in the cryptocurrency space.
-• Members of the LexDAO & Bankless communities.`,
+• Members of the LexDAO & Bankless communities.
+
+MedDAO is a Delaware Unincorporated Nonprofit Association.  More details can be found <a href="https://app.kali.gg/daos/1/0xdd019415188f122ef294f5a17e4cef304c2af167" style="color: #FF003F">here</a>.`,
   },
   {
     id: 2,
@@ -98,26 +100,27 @@ export const roadmap: objective[] = [
   },
   {
     id: 2,
+    objective: "Develop MedDAO Token",
+    completed: true,
+    inProgress: false,
+    futurePlans: false,
+  },
+  {
+    id: 3,
     objective: "Grow community and identify early DAO contributors",
     completed: false,
     inProgress: true,
     futurePlans: false,
   },
   {
-    id: 3,
+    id: 4,
     objective:
       "Implement self-sovereign identification and credential verification",
     completed: false,
     inProgress: true,
     futurePlans: false,
   },
-  {
-    id: 4,
-    objective: "Develop MedDAO Token",
-    completed: false,
-    inProgress: true,
-    futurePlans: false,
-  },
+
   {
     id: 5,
     objective: "Develop initial Knowledge Request Protocol",
@@ -127,13 +130,6 @@ export const roadmap: objective[] = [
   },
   {
     id: 6,
-    objective: "Launch MedDAO Protocol",
-    completed: false,
-    inProgress: true,
-    futurePlans: false,
-  },
-  {
-    id: 7,
     objective:
       "Collaboration with other DAOs, medical industry and charitable partners",
     completed: false,
@@ -141,14 +137,14 @@ export const roadmap: objective[] = [
     futurePlans: false,
   },
   {
-    id: 8,
+    id: 7,
     objective: "Establish MedDAO grants program",
     completed: false,
     inProgress: false,
     futurePlans: true,
   },
   {
-    id: 9,
+    id: 8,
     objective: "Fully decentralize governance",
     completed: false,
     inProgress: false,
