@@ -68,7 +68,7 @@ const FAQ = () => {
             fontWeight={700}
             pl={{ sm: ".2em", lg: ".4em" }}
           >
-            FAQs
+            FAQ
           </Heading>
         </Flex>
 
