@@ -69,6 +69,16 @@ export const DesktopView = () => {
               Documents
             </Text>
           </Link>
+                     <Link href="https://linktr.ee/meddao" target="_blank">
+            <Text
+              color="#5d5d5d"
+              fontFamily="Neue Montreal"
+              fontSize={{ sm: "1em", md: "1.2em" }}
+              fontWeight={500}
+            >
+              Linktree
+            </Text>
+          </Link>   
           <BaseButton href="https://discord.gg/qwWATcETDq" text="JOIN US" />
         </HStack>
       </Flex>
