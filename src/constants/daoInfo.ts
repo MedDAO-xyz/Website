@@ -107,15 +107,15 @@ export const roadmap: objective[] = [
   },
   {
     id: 3,
-    objective: "Grow community and identify early DAO contributors",
-    completed: false,
-    inProgress: true,
+    objective: "Implement self-sovereign identification and credential verification",
+    completed: true,
+    inProgress: false,
     futurePlans: false,
   },
   {
     id: 4,
     objective:
-      "Implement self-sovereign identification and credential verification",
+      "Grow community and identify early DAO contributors",
     completed: false,
     inProgress: true,
     futurePlans: false,
